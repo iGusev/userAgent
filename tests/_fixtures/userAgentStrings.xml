@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<document>
+    <strings>
+        <string>
+            <field name="browser">114Browser</field>
+            <field name="browser_version">5.0</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 114Browser/5.0
+            </field>
+        </string>
+        <string>
+            <field name="browser">115Browser</field>
+            <field name="browser_version">5.1.3</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 115Browser/5.1.3
+            </field>
+        </string>
+        <string>
+            <field name="browser">2345Explorer</field>
+            <field name="browser_version">3.4.0.12519</field>
+            <field name="os">Windows</field>
+            <field name="os_version">8</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; 2345Explorer 3.4.0.12519)
+            </field>
+        </string>
+        <string>
+            <field name="browser">360 Aphone Browser</field>
+            <field name="browser_version">5.4.1</field>
+            <field name="os">Android</field>
+            <field name="os_version">4.2.2</field>
+            <field name="device">Xiaomi HM-NOTE 1W</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1W Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled); 360(android,uppayplugin); 360 Aphone Browser (5.4.1)
+            </field>
+        </string>
+        <string>
+            <field name="browser">360 Explorer</field>
+            <field name="browser_version">unknown</field>
+            <field name="os">Windows</field>
+            <field name="os_version">8.1</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko se5_i) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE
+            </field>
+        </string>
+        <string>
+            <field name="browser">America Online Browser</field>
+            <field name="browser_version">1.1</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/4.0 (compatible; MSIE 6.0; America Online Browser 1.1; rev1.2; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Android Webkit</field>
+            <field name="browser_version">4.0</field>
+            <field name="os">Android</field>
+            <field name="os_version">2.3.7</field>
+            <field name="device">HTC</field>
+            <field name="device_version">Desire</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;HTC Desire Build) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1
+            </field>
+        </string>
+        <string>
+            <field name="browser">Android Webkit</field>
+            <field name="browser_version">4.0</field>
+            <field name="os">Android</field>
+            <field name="os_version">4.2.2</field>
+            <field name="device">Huawei</field>
+            <field name="device_version">Y516</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HUAWEI Y516-T00 Build/HUAWEIY516-T00) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.0.1 (Baidu; P1 4.2.2)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Android Webkit</field>
+            <field name="browser_version">4.0</field>
+            <field name="os">Android</field>
+            <field name="os_version">4.2.2</field>
+            <field name="device">K-Touch</field>
+            <field name="device_version">T60</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; K-Touch T60 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MxBrowser/4.3.2.2000
+            </field>
+        </string>
+        <string>
+            <field name="browser">Android Webkit</field>
+            <field name="browser_version">4.0</field>
+            <field name="os">Android</field>
+            <field name="os_version">2.3.5</field>
+            <field name="device">Lenovo</field>
+            <field name="device_version">A520</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; Lenovo A520/S101) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+            </field>
+        </string>
+    </strings>
+</document>
