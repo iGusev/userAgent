@@ -127,7 +127,7 @@ class UserAgentString
     /**
      * @return string
      */
-    public function getbrowserVersion()
+    public function getBrowserVersion()
     {
         return $this->browserVersion;
     }
@@ -137,7 +137,7 @@ class UserAgentString
      *
      * @return $this
      */
-    public function setbrowserVersion($browserVersion)
+    public function setBrowserVersion($browserVersion)
     {
         $this->browserVersion = $browserVersion;
 
