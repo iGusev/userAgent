@@ -4,7 +4,6 @@ namespace userAgent\userAgent;
 
 class UserAgent
 {
-
     /**
      * @var string
      */
@@ -14,6 +13,13 @@ class UserAgent
      * @var string
      */
     protected $browserVersion;
+
+    /**
+     * @var boolean
+     */
+    protected $is_mobile;
+
+    /**
      * @return string
      */
     public function getBrowser()
@@ -48,7 +54,7 @@ class UserAgent
     /**
      * @return boolean
      */
-    public function isIsMobile()
+    public function isMobile()
     {
         return $this->is_mobile;
     }

@@ -20,7 +20,8 @@ class UserAgentStringMapper
             $userAgentString->setOsVersion((string) $string[3]);
             $userAgentString->setDevice((string) $string[4]);
             $userAgentString->setDeviceVersion((string) $string[5]);
-            $userAgentString->setDeviceVersion((bool) $string[6]);
+            $is_mobile = (string) $string[6];
+            $is_mobile === 'true' ? $userAgentString->setIsMobile(true) : $userAgentString->setIsMobile(false);
             $userAgentString->setString(str_replace(array(PHP_EOL, '  '), ' ', (string) $string[7]));
             $collection[] = $userAgentString;
         }
