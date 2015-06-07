@@ -19,7 +19,7 @@ before_script:
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-source
 
 script:
-  - phpunit --coverage-text --coverage-clover=coverage.clover
+  - phpunit --coverage-text --coverage-clover=coverage.clover --configuration phpunit.xml.dist
 
 after_script:
   - php vendor/bin/ocular code-coverage:upload --format=php-clover coverage.clover
