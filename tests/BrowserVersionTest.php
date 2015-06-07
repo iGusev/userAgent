@@ -11,7 +11,7 @@ class BrowserVersionTest extends BaseTest
     /**
      * @dataProvider userAgentProvider
      */
-    public function testBrowser(UserAgentString $userAgentString)
+    public function testBrowserVersion(UserAgentString $userAgentString)
     {
         $userAgent = new UserAgent($userAgentString->getString());
         $this->assertEquals($userAgentString->getBrowserVersion(), $userAgent->getBrowserVersion());

@@ -11,6 +11,9 @@ class UserAgent
     protected $browser;
 
     /**
+     * @var string
+     */
+    protected $browserVersion;
      * @return string
      */
     public function getBrowser()
@@ -26,4 +29,35 @@ class UserAgent
         $this->browser = $browser;
     }
 
+    /**
+     * @return string
+     */
+    public function getBrowserVersion()
+    {
+        return $this->browserVersion;
+    }
+
+    /**
+     * @param string $browserVersion
+     */
+    public function setBrowserVersion($browserVersion)
+    {
+        $this->browserVersion = $browserVersion;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isIsMobile()
+    {
+        return $this->is_mobile;
+    }
+
+    /**
+     * @param boolean $is_mobile
+     */
+    public function setIsMobile($is_mobile)
+    {
+        $this->is_mobile = $is_mobile;
+    }
 }
