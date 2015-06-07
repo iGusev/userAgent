@@ -7,6 +7,11 @@ class UserAgent
     /**
      * @var string
      */
+    protected $userAgentString;
+
+    /**
+     * @var string
+     */
     protected $browser;
 
     /**
@@ -18,6 +23,27 @@ class UserAgent
      * @var boolean
      */
     protected $is_mobile;
+
+    public function __construct($userAgentString)
+    {
+        $this->setUserAgentString($userAgentString);
+    }
+
+    /**
+     * @return string
+     */
+    public function getUserAgentString()
+    {
+        return $this->userAgentString;
+    }
+
+    /**
+     * @param string $userAgentString
+     */
+    public function setUserAgentString($userAgentString)
+    {
+        $this->userAgentString = $userAgentString;
+    }
 
     /**
      * @return string
