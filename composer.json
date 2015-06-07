@@ -29,7 +29,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "userAgent\\userAgent\\Tests\\": "tests"
+            "userAgent\\userAgent\\Tests\\": "tests",
+            "userAgent\\userAgent\\Tests\\Fixtures\\": "tests/fixtures"
         }
     },
     "scripts": {

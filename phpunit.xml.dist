@@ -11,7 +11,8 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="League Test Suite">
-            <directory>./tests/</directory>
+            <directory>tests</directory>
+            <exclude>tests/fixtures/BaseTest.php</exclude>
         </testsuite>
     </testsuites>
     <filter>

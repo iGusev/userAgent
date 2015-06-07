@@ -1,6 +1,6 @@
 <?php
 
-namespace userAgent\userAgent\Tests;
+namespace userAgent\userAgent\Tests\Fixtures;
 
 class UserAgentString
 {

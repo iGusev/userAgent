@@ -1,6 +1,6 @@
 <?php
 
-namespace userAgent\userAgent\Tests;
+namespace userAgent\userAgent\Tests\Fixtures;
 
 class UserAgentStringMapper
 {
@@ -10,7 +10,7 @@ class UserAgentStringMapper
     public static function map()
     {
         $collection = array();
-        $xml = new SimpleXmlElement(file_get_contents(FILES . DIRECTORY_SEPARATOR . 'UserAgentStrings.xml'));
+        $xml = new \SimpleXMLElement(file_get_contents('tests/fixtures/userAgentStrings.xml'));
         foreach ($xml->strings->string as $string) {
             $string = $string->field;
             $userAgentString = new UserAgentString();
