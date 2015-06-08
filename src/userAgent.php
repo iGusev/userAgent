@@ -20,6 +20,10 @@ class UserAgent
     protected $browserVersion;
 
     /**
+     * @var string
+     */
+    protected $os;
+
      * @var boolean
      */
     protected $is_mobile;
@@ -92,4 +96,21 @@ class UserAgent
     {
         $this->is_mobile = $is_mobile;
     }
+
+    /**
+     * @return string
+     */
+    public function getOs()
+    {
+        return $this->os;
+    }
+
+    /**
+     * @param string $os
+     */
+    public function setOs($os)
+    {
+        $this->os = $os;
+    }
+
 }
