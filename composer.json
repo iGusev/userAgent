@@ -29,6 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "userAgent\\userAgent\\": "src",
             "userAgent\\userAgent\\Tests\\": "tests",
             "userAgent\\userAgent\\Tests\\Fixtures\\": "tests/fixtures"
         }
