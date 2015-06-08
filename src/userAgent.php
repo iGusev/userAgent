@@ -24,6 +24,12 @@ class UserAgent
      */
     protected $os;
 
+    /**
+     * @var string
+     */
+    protected $osVersion;
+
+    /**
      * @var boolean
      */
     protected $is_mobile;
@@ -111,6 +117,22 @@ class UserAgent
     public function setOs($os)
     {
         $this->os = $os;
+    }
+
+    /**
+     * @return string
+     */
+    public function getOsVersion()
+    {
+        return $this->osVersion;
+    }
+
+    /**
+     * @param string $osVersion
+     */
+    public function setOsVersion($osVersion)
+    {
+        $this->osVersion = $osVersion;
     }
 
 }
