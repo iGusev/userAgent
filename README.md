@@ -1,11 +1,11 @@
 # userAgent
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/league/userAgent.svg?style=flat-square)](https://packagist.org/packages/league/userAgent)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/userAgent/userAgent.svg?style=flat-square)](https://packagist.org/packages/useragent/useragent)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/thephpleague/userAgent/master.svg?style=flat-square)](https://travis-ci.org/thephpleague/userAgent)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/userAgent.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/userAgent/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/userAgent.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/userAgent)
-[![Total Downloads](https://img.shields.io/packagist/dt/league/userAgent.svg?style=flat-square)](https://packagist.org/packages/league/userAgent)
+[![Build Status](https://img.shields.io/travis/iGusev/userAgent/master.svg?style=flat-square)](https://travis-ci.org/iGusev/userAgent)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/iGusev/userAgent.svg?style=flat-square)](https://scrutinizer-ci.com/g/iGusev/userAgent/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/iGusev/userAgent.svg?style=flat-square)](https://scrutinizer-ci.com/g/iGusev/userAgent)
+[![Total Downloads](https://img.shields.io/packagist/dt/useragent/useragent.svg?style=flat-square)](https://packagist.org/packages/useragent/useragent)
 
 **Note:** Replace ```Ilya Gusev``` ```iGusev``` ```https://php-cat.com``` ```mail@igusev.ru``` ```userAgent``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
 
