@@ -39,7 +39,7 @@ class UserAgent
     /**
      * @var boolean
      */
-    protected $is_mobile;
+    protected $isMobile;
 
     public function __construct($userAgentString)
     {
@@ -102,15 +102,15 @@ class UserAgent
      */
     public function isMobile()
     {
-        return $this->is_mobile;
+        return $this->isMobile;
     }
 
     /**
-     * @param boolean $is_mobile
+     * @param boolean $isMobile
      */
-    public function setIsMobile($is_mobile)
+    public function setIsMobile($isMobile)
     {
-        $this->is_mobile = $is_mobile;
+        $this->isMobile = $isMobile;
     }
 
     /**
