@@ -6,7 +6,8 @@ class UserAgent
 {
 
     protected static $detectorsList = [
-        'IE114la'
+        'IE114la',
+        'IE115'
     ];
 
     /**
