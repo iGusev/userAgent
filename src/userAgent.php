@@ -4,6 +4,11 @@ namespace userAgent\userAgent;
 
 class UserAgent
 {
+
+    protected static $detectorsList = [
+        'IE114la'
+    ];
+
     /**
      * @var string
      */
@@ -36,7 +41,10 @@ class UserAgent
 
     public function __construct($userAgentString)
     {
+        $userAgentString = trim($userAgentString);
         $this->setUserAgentString($userAgentString);
+
+        $this->analyze($userAgentString);
     }
 
     /**
@@ -135,4 +143,23 @@ class UserAgent
         $this->osVersion = $osVersion;
     }
 
+    protected static function getDetectorClass($name)
+    {
+        return 'userAgent\\userAgent\\Detector\\' . $name;
+    }
+
+    public function analyze($userAgentString)
+    {
+        foreach (self::$detectorsList as $detector) {
+            $class = self::getDetectorClass($detector);
+            $result = $class::detect($userAgentString);
+
+            if ($result !== false) {
+                $this->setBrowser($result['name']);
+                $this->setBrowserVersion($result['version']);
+                $this->setIsMobile($result['is_mobile']);
+                break;
+            }
+        }
+    }
 }
