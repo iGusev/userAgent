@@ -61,6 +61,33 @@
                 Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko se5_i) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE
             </field>
         </string>
+        <string>
+            <field name="browser">Yandex Browser</field>
+            <field name="version">15.6.2311.3451</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">10.10.2</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.3451 (beta) Yowser/2.0 Safari/537.36
+            </field>
+        </string>
+        <string>
+            <field name="browser">Yandex Browser</field>
+            <field name="version">14.7.1916.15705</field>
+            <field name="os">Windows</field>
+            <field name="os_version">8.1</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15705 Safari/537.36
+            </field>
+        </string>
+
+
+
         <!--<string>-->
             <!--<field name="browser">America Online Browser</field>-->
             <!--<field name="browser_version">1.1</field>-->

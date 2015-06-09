@@ -305,10 +305,6 @@ $testList = array(
         array('img/16/browser/ucbrowser.png', 'img/16/device/k-touch.png', 'UC Browser 9.9.8.511', 'K-Touch T619'),
     ),
     array(
-        array('Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 YaBrowser/14.7.1916.15705 Safari/537.36'),
-        array('img/16/browser/yandex.png', 'img/16/os/win-5.png', 'Yandex.Browser 14.7.1916.15705', 'Windows 8.1 x64'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0'),
         array('img/16/browser/edge.png', 'img/16/os/win-5.png', 'Edge 12.0', 'Windows 10 x64'),
     ),

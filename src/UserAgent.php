@@ -11,7 +11,8 @@ class UserAgent
         'Explorer2345',
         'AphoneBrowser360',
         'Explorer360',
-        'Chrome360'
+        'Chrome360',
+        'YandexBrowser'
     ];
 
     /**
@@ -386,7 +387,6 @@ class UserAgent
         'Wyzo',
         'X-Smiles',
         'Xiino',
-        'YaBrowser',
         'zBrowser',
         'ZipZap'
     );
@@ -1626,11 +1626,6 @@ class UserAgent
             'link' => '#',
             'title' => '{%Xiino%}',
             'code' => 'null',
-        ),
-        'yabrowser' => array(
-            'link' => 'http://browser.yandex.com/',
-            'title' => 'Yandex.{%Browser%}',
-            'code' => 'yandex',
         ),
         'zbrowser' => array(
             'link' => 'http://sites.google.com/site/zeromusparadoxe01/zbrowser',
