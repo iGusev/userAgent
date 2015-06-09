@@ -1,10 +1,6 @@
 <?php
 $testList = array(
     array(
-        array('Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; ARM; Touch; WPDesktop)'),
-        array('img/16/browser/msie10.png', 'img/16/os/windowsphone.png', 'Internet Explorer 10.0', 'Windows Phone'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; HTC; Windows Phone 8X by HTC) like Gecko'),
         array('img/16/browser/msie11.png', 'img/16/device/htc.png', 'Internet Explorer 11.0', 'HTC 8X'),
     ),
@@ -12,58 +8,8 @@ $testList = array(
         array('Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; Nokia 920) like Gecko'),
         array('img/16/browser/msie11.png', 'img/16/device/nokia.png', 'Internet Explorer 11.0', 'Nokia Lumia 920'),
     ),
-    array(
-        array('Mozilla/5.0 (MSIE 9.0; Windows NT 6.4; WOW64; Trident/7.0; rv:11.0) like Gecko'),
-        array('img/16/browser/msie9.png', 'img/16/os/win-5.png', 'Internet Explorer 11.0', 'Windows 10 x64'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; LCJB; rv:11.0) like Gecko'),
-        array('img/16/browser/msie11.png', 'img/16/os/win-5.png', 'Internet Explorer 11.0', 'Windows 8 x64'),
-    ),
-    array(
-        array('Mozilla/5.0 (MSIE 7.0; Windows NT 6.0; Trident/7.0; rv:11.0) like Gecko'),
-        array('img/16/browser/msie7.png', 'img/16/os/win-3.png', 'Internet Explorer 11.0', 'Windows Vista'),
-    ),
-    array(
-        array('Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)'),
-        array('img/16/browser/msie2.png', 'img/16/os/win-1.png', 'Internet Explorer 2.0', 'Windows 95'),
-    ),
-    array(
-        array('Mozilla/1.22 (compatible; MSIE 2.0d; Windows NT)'),
-        array('img/16/browser/msie2.png', 'img/16/os/win-2.png', 'Internet Explorer 2.0d', 'Windows'),
-    ),
-    array(
-        array('Mozilla/2.0 (compatible; MSIE 3.02; Windows CE; 240x320)'),
-        array('img/16/browser/msie3.png', 'img/16/os/win-2.png', 'Internet Explorer 3.02', 'Windows CE'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 4.0; Windows NT 6.0; Trident/5.0)'),
-        array('img/16/browser/msie4.png', 'img/16/os/win-3.png', 'Internet Explorer 4.0', 'Windows Vista'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 5.0; Windows 3.1)'),
-        array('img/16/browser/msie4.png', 'img/16/os/win-1.png', 'Internet Explorer 5.0', 'Windows 3.1'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 6.0; Trident/5.0)'),
-        array('img/16/browser/msie4.png', 'img/16/os/win-3.png', 'Internet Explorer 5.0', 'Windows Vista'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)'),
-        array('img/16/browser/msie4.png', 'img/16/os/win-1.png', 'Internet Explorer 5.5', 'Windows NT 4.0'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 5.5; Windows 95)'),
-        array('img/16/browser/msie4.png', 'img/16/os/win-1.png', 'Internet Explorer 5.5', 'Windows 95'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)'),
-        array('img/16/browser/msie6.png', 'img/16/os/win-1.png', 'Internet Explorer 6.0', 'Windows 2000'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)'),
-        array('img/16/browser/msie6.png', 'img/16/os/win-2.png', 'Internet Explorer 6.0', 'Windows Server 2003'),
-    ),
+
+
     array(
         array('Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/6.0)'),
         array('img/16/browser/msie7.png', 'img/16/os/win-5.png', 'Internet Explorer 7.0', 'Windows 8'),

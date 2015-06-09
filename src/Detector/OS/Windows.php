@@ -21,39 +21,30 @@ class Windows extends BaseDetector
         'Windows NT 5.2' => 'Server 2003',
         'Windows (NT 5.1|XP)' => 'XP',
         'Windows NT 5.01' => '2000 Service Pack 1',
-        'Windows (NT 5.0|2000)' => '200',
-        'Windows NT 4.0|WinNT4.0' => 'NT 4.0',
+        'Windows (NT 5.0|2000)' => '2000',
+        'Windows NT 4.0|WinNT4.0|Windows NT\)' => 'NT 4.0',
         'Win(dows )?NT ?3.51|WinNT3.51' => 'NT 3.11',
         'Win(dows )?3.11|Win16' => '3.11',
         'Windows 3.1' => '3.1',
         'Win 9x 4.90|Windows ME' => 'ME',
         'Win98' => '98 SE',
         'Windows (98|4\.10)' => '98',
-        'Windows 95|Win95' => '95',
-        //        'Windows CE|Windows .+Mobile' => 'CE',
+        'Windows 95|Win95|Windows 95' => '95',
+        'Windows CE|Windows .+Mobile' => 'CE', // TODO!
         //        'WM5' => ' Mobile 5',
         //        'WindowsMobile' => ' Mobile'
+    ];
+
+    protected static $setMobile = [
+        'CE'
     ];
 
 
     public static function detect(UserAgent $userAgent)
     {
+        static::$isMobile = false;
         $userAgentString = $userAgent->getUserAgentString();
         if (preg_match(static::$regEx, $userAgentString)) {
-            if (preg_match('/Windows Phone|WPDesktop|ZuneWP7|WP7/i', $userAgentString)) {
-                static::$link = "http://www.windowsphone.com/";
-                static::$name .= ' Phone';
-                static::$isMobile = true;
-                if (preg_match('/Windows Phone (OS )?([0-9\.]+)/i', $userAgentString, $regmatch)) {
-                    $userAgent->setOsVersion($regmatch[2]);
-                }
-
-                $userAgent->setOs(static::$name);
-                $userAgent->setIsMobile(static::$isMobile);
-
-                return true;
-            }
-
             $userAgent->setOs(static::$name);
             $userAgent->setOsVersion(self::detectVersion($userAgentString));
             $userAgent->setIsMobile(static::$isMobile);
@@ -74,6 +65,10 @@ class Windows extends BaseDetector
                 $version = $currVersion;
                 break;
             }
+        }
+
+        if (in_array($version, static::$setMobile)) {
+            static::$isMobile = true;
         }
 
         return $version;

@@ -12,12 +12,13 @@ class UserAgent
         'AphoneBrowser360',
         'Explorer360',
         'Chrome360',
-        'YandexBrowser'
+        'YandexBrowser',
+        'InternetExplorer'
     ];
 
     protected static $osDetectorsList = [
-        'Windows',
-        'MacOS'
+        'Windows', // before Windows Phone
+        'MacOS',
     ];
 
     /**
@@ -1858,36 +1859,6 @@ class UserAgent
                 $link = "http://www.mozilla.org/";
                 $title = $this->detect_browser_version(array('', 'Firefox'));
                 $code = "firefox";
-            } elseif (preg_match('/MSIE/i', $userAgentString) || preg_match('/Trident/i', $userAgentString)) {
-                $link = "http://www.microsoft.com/windows/products/winfamily/ie/default.mspx";
-                $title = "Internet Explorer" . $this->detect_browser_version(array('', 'MSIE'));
-                if (preg_match('/MSIE[\ |\/]?([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                    // We have IE10 or older
-                } elseif (preg_match('/\ rv:([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                    // We have IE11 or newer
-                }
-                $code = "msie";
-                if (count($regmatch) > 0) {
-                    if ($regmatch[1] >= 11) {
-                        $code = "msie11";
-                    } elseif ($regmatch[1] >= 10) {
-                        $code = "msie10";
-                    } elseif ($regmatch[1] >= 9) {
-                        $code = "msie9";
-                    } elseif ($regmatch[1] >= 7) {
-                        // also ie8
-                        $code = "msie7";
-                    } elseif ($regmatch[1] >= 6) {
-                        $code = "msie6";
-                    } elseif ($regmatch[1] >= 4) {
-                        // also ie5
-                        $code = "msie4";
-                    } elseif ($regmatch[1] >= 3) {
-                        $code = "msie3";
-                    } elseif ($regmatch[1] >= 2) {
-                        $code = "msie2";
-                    }
-                }
             } elseif (preg_match('/Mozilla/i', $userAgentString)) {
                 $link = "http://www.mozilla.org/";
                 $title = "Mozilla Compatible";
