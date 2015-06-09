@@ -71,109 +71,14 @@ abstract class BaseDetector
         if (preg_match('/x86_64|Win64; x64|WOW64/i', $userAgentString)) {
             static::$isX64 = true;
         }
-        // Check Linux
-        if (preg_match('/Windows|Win(NT|32|95|98|16)|ZuneWP7|WPDesktop/i', $userAgentString)) {
-            $result = self::analyzeWindows($userAgentString);
+
+        if (preg_match('/Linux/i', $userAgentString) && !preg_match('/Android|ADR/', $userAgentString)) {
+            $result = self::analyzeLinux($userAgentString);
         } else {
-            if (preg_match('/Linux/i', $userAgentString) && !preg_match('/Android|ADR/', $userAgentString)) {
-                $result = self::analyzeLinux($userAgentString);
-            } else {
-                $result = self::analyzeOther($userAgentString);
-            }
+            $result = self::analyzeOther($userAgentString);
         }
 
         return $result;
-    }
-
-    public static function analyzeWindows($userAgentString)
-    {
-        $link = "http://www.microsoft.com/windows/";
-        $title = ['osName' => 'Windows'];
-        $code = 'win-2';
-        if (preg_match('/Windows Phone|WPDesktop|ZuneWP7|WP7/i', $userAgentString)) {
-            $link = "http://www.windowsphone.com/";
-            $title['osName'] .= ' Phone';
-            $code = "windowsphone";
-            if (preg_match('/Windows Phone (OS )?([0-9\.]+)/i', $userAgentString, $regmatch)) {
-                $title['osVersion'] = $regmatch[2];
-                if ((int) $regmatch[2] == 7) {
-                    $code = "wp7";
-                }
-            }
-        } elseif (preg_match('/Windows NT (6.4|10.0)/i', $userAgentString)) {
-            $title['osVersion'] = "10";
-            $code = "win-5";
-        } elseif (preg_match('/Windows NT 6.3/i', $userAgentString)) {
-            $title['osVersion'] = "8.1";
-            $code = "win-5";
-        } elseif (preg_match('/Windows NT 6.2/i', $userAgentString)) {
-            $title['osVersion'] = "8";
-            $code = "win-5";
-        } elseif (preg_match('/Windows NT 6.1/i', $userAgentString)) {
-            $title['osVersion'] = "7";
-            $code = "win-4";
-        } elseif (preg_match('/Windows NT 6.0/i', $userAgentString)) {
-            $title['osVersion'] = "Vista";
-            $code = "win-3";
-        } elseif (preg_match('/Windows NT 5.2/i', $userAgentString)) {
-            $title['osVersion'] = "Server 2003";
-            $code = "win-2";
-        } elseif (preg_match('/Windows (NT 5.1|XP)/i', $userAgentString)) {
-            $title['osVersion'] = "XP";
-            $code = "win-2";
-            // @codeCoverageIgnoreStart
-        } elseif (preg_match('/Windows NT 5.01/i', $userAgentString)) {
-            $title['osVersion'] = "2000 Service Pack 1";
-            $code = "win-1";
-            // @codeCoverageIgnoreEnd
-        } elseif (preg_match('/Windows (NT 5.0|2000)/i', $userAgentString)) {
-            $title['osVersion'] = "2000";
-            $code = "win-1";
-        } elseif (preg_match('/Windows NT 4.0/i', $userAgentString)
-            || preg_match('/WinNT4.0/i', $userAgentString)
-        ) {
-            $title['osVersion'] = "NT 4.0";
-            $code = "win-1";
-        } elseif (preg_match('/Win(dows )?NT ?3.51/i', $userAgentString)
-            || preg_match('/WinNT3.51/i', $userAgentString)
-        ) {
-            $title['osVersion'] = "NT 3.11";
-            $code = "win-1";
-        } elseif (preg_match('/Win(dows )?3.11|Win16/i', $userAgentString)) {
-            $title['osVersion'] = "3.11";
-            $code = "win-1";
-        } elseif (preg_match('/Windows 3.1/i', $userAgentString)) {
-            $title['osVersion'] = "3.1";
-            $code = "win-1";
-        } elseif (preg_match('/Win 9x 4.90|Windows ME/i', $userAgentString)) {
-            $title['osVersion'] = "Me";
-            $code = "win-1";
-        } elseif (preg_match('/Win98/i', $userAgentString)) {
-            $title['osVersion'] = "98 SE";
-            $code = "win-1";
-        } elseif (preg_match('/Windows (98|4\.10)/i', $userAgentString)) {
-            $title['osVersion'] = "98";
-            $code = "win-1";
-        } elseif (preg_match('/Windows 95/i', $userAgentString)
-            || preg_match('/Win95/i', $userAgentString)
-        ) {
-            $title['osVersion'] = "95";
-            $code = "win-1";
-        } elseif (preg_match('/Windows CE|Windows .+Mobile/i', $userAgentString)) {
-            $title['osVersion'] = "CE";
-            $code = "win-2";
-            // @codeCoverageIgnoreStart
-        } elseif (preg_match('/WM5/i', $userAgentString)) {
-            $title['osName'] .= " Mobile";
-            $title['osVersion'] = "5";
-            $code = "win-phone";
-        } elseif (preg_match('/WindowsMobile/i', $userAgentString)) {
-            $title['osName'] .= " Mobile";
-            $code = "win-phone";
-        }
-
-        // @codeCoverageIgnoreEnd
-        return $title;
     }
 
     public static function analyzeLinux($userAgentString)
