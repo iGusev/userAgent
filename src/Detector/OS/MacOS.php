@@ -3,6 +3,7 @@
 namespace userAgent\userAgent\Detector\OS;
 
 use userAgent\userAgent\Detector\BaseDetector;
+use userAgent\userAgent\UserAgent;
 
 class MacOS extends BaseDetector
 {
@@ -11,8 +12,9 @@ class MacOS extends BaseDetector
     protected static $regEx = '/Mac|Darwin/i';
 
 
-    public static function detect($userAgentString)
+    public static function detect(UserAgent $userAgent)
     {
+        $userAgentString = $userAgent->getUserAgentString();
         if (preg_match(static::$regEx, $userAgentString)) {
             if (preg_match('/Darwin/i', $userAgentString)) {
                 static::$name = "Mac OS Darwin";
@@ -20,10 +22,10 @@ class MacOS extends BaseDetector
                 static::$name = "Macintosh";
             }
 
-            return [
-                'osName' => static::$name,
-                'osVersion' => self::detectVersion($userAgentString)
-            ];
+            $userAgent->setOs(static::$name);
+            $userAgent->setOsVersion(self::detectVersion($userAgentString));
+
+            return true;
         }
 
 

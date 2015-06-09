@@ -3,6 +3,8 @@
 namespace userAgent\userAgent\Detector;
 
 
+use userAgent\userAgent\UserAgent;
+
 abstract class BaseDetector
 {
     protected static $link = '';
@@ -11,8 +13,9 @@ abstract class BaseDetector
     protected static $isMobile = false;
     protected static $isX64 = false;
 
-    public static function detect($userAgentString)
+    public static function detect(UserAgent $userAgent)
     {
+        $userAgentString = $userAgent->getUserAgentString();
         $output = [];
         $regExString = '/(' . static::$regEx . ')/i';
 

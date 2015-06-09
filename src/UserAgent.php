@@ -54,7 +54,7 @@ class UserAgent
         $userAgentString = trim($userAgentString);
         $this->setUserAgentString($userAgentString);
 
-        $this->analyze($userAgentString);
+        $this->analyze($this->getUserAgentString());
     }
 
     /**
@@ -126,6 +126,10 @@ class UserAgent
      */
     public function getOs()
     {
+        if (is_null($this->os)) {
+            $this->analyzeOS();
+        }
+
         return $this->os;
     }
 
@@ -142,6 +146,10 @@ class UserAgent
      */
     public function getOsVersion()
     {
+        if (is_null($this->osVersion)) {
+            $this->analyzeOS();
+        }
+
         return $this->osVersion;
     }
 
@@ -1663,24 +1671,31 @@ class UserAgent
         return 'userAgent\\userAgent\\Detector\\' . $name;
     }
 
+    protected function analyzeOS()
+    {
+        $flag = false;
+        foreach (self::$osDetectorsList as $detector) {
+            $class = self::getDetectorClass('OS\\' . $detector);
+            $result = $class::detect($this);
+
+            if ($result) {
+                $flag = true;
+                break;
+            }
+        }
+        if (!$flag) {
+            $this->setOs('unknown');
+            $this->setOsVersion('unknown');
+        }
+    }
+
     public function analyze($userAgentString)
     {
         $flag = false;
 
-        foreach (self::$osDetectorsList as $detector) {
-            $class = self::getDetectorClass('OS\\' . $detector);
-            $result = $class::detect($userAgentString);
-
-            if ($result !== false) {
-                $this->setOs($result['osName']);
-                $this->setOsVersion($result['osVersion']);
-                break;
-            }
-        }
-
         foreach (self::$browserDetectorsList as $detector) {
             $class = self::getDetectorClass($detector);
-            $result = $class::detect($userAgentString);
+            $result = $class::detect($this);
 
             if ($result !== false) {
                 if (isset($result['name'])) {
@@ -1692,10 +1707,10 @@ class UserAgent
                 if (isset($result['is_mobile'])) {
                     $this->setIsMobile($result['is_mobile']);
                 }
-                if (is_null($this->os)) {
+                if ($this->getOs() == 'unknown') {
                     $this->setOs($result['osName']);
                 }
-                if (is_null($this->osVersion)) {
+                if ($this->getOsVersion() == 'unknown') {
                     $this->setOsVersion($result['osVersion']);
                 }
                 $flag = true;
