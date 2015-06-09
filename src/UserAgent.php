@@ -18,6 +18,7 @@ class UserAgent
 
     protected static $osDetectorsList = [
         'Windows', // before Windows Phone
+        'WindowsPhone',
         'MacOS',
     ];
 
