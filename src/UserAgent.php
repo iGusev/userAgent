@@ -5,7 +5,7 @@ namespace userAgent\userAgent;
 class UserAgent
 {
 
-    protected static $detectorsList = [
+    protected static $browserDetectorsList = [
         'IE114la',
         'IE115',
         'Explorer2345',
@@ -13,6 +13,10 @@ class UserAgent
         'Explorer360',
         'Chrome360',
         'YandexBrowser'
+    ];
+
+    protected static $osDetectorsList = [
+        'MacOS'
     ];
 
     /**
@@ -1663,16 +1667,37 @@ class UserAgent
     {
         $flag = false;
 
-        foreach (self::$detectorsList as $detector) {
+        foreach (self::$osDetectorsList as $detector) {
+            $class = self::getDetectorClass('OS\\' . $detector);
+            $result = $class::detect($userAgentString);
+
+            if ($result !== false) {
+                $this->setOs($result['osName']);
+                $this->setOsVersion($result['osVersion']);
+                break;
+            }
+        }
+
+        foreach (self::$browserDetectorsList as $detector) {
             $class = self::getDetectorClass($detector);
             $result = $class::detect($userAgentString);
 
             if ($result !== false) {
-                $this->setBrowser($result['name']);
-                $this->setBrowserVersion($result['version']);
-                $this->setIsMobile($result['is_mobile']);
-                $this->setOs($result['osName']);
-                $this->setOsVersion($result['osVersion']);
+                if (isset($result['name'])) {
+                    $this->setBrowser($result['name']);
+                }
+                if (isset($result['version'])) {
+                    $this->setBrowserVersion($result['version']);
+                }
+                if (isset($result['is_mobile'])) {
+                    $this->setIsMobile($result['is_mobile']);
+                }
+                if (is_null($this->os)) {
+                    $this->setOs($result['osName']);
+                }
+                if (is_null($this->osVersion)) {
+                    $this->setOsVersion($result['osVersion']);
+                }
                 $flag = true;
                 break;
             }

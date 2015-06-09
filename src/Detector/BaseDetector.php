@@ -27,15 +27,13 @@ abstract class BaseDetector
                 if ($os = self::detectOS($userAgentString)) {
                     if (isset($os['osName'])) {
                         $output['osName'] = $os['osName'];
-                    }
-                    else {
+                    } else {
                         $output['osName'] = 'unknown';
                     }
 
                     if (isset($os['osVersion'])) {
                         $output['osVersion'] = $os['osVersion'];
-                    }
-                    else {
+                    } else {
                         $output['osVersion'] = 'unknown';
                     }
                 }
@@ -507,27 +505,6 @@ abstract class BaseDetector
                 }
             }
             $code = "irix";
-        } elseif (preg_match('/Mac/i', $userAgentString)
-            || preg_match('/Darwin/i', $userAgentString)
-        ) {
-            $link = "http://www.apple.com/macosx/";
-            if (preg_match('/(Mac OS ?X)/i', $userAgentString, $regmatch)) {
-                $title['osName'] = substr($userAgentString,
-                    strpos(strtolower($userAgentString), strtolower($regmatch[1])));
-                $title['osName'] = substr($title, 0, strpos($title, ")"));
-                if (strpos($title, ";")) {
-                    $title['osName'] = substr($title, 0, strpos($title, ";"));
-                }
-                $title['osName'] = str_replace("_", ".", $title);
-                $title['osName'] = str_replace("OSX", "OS X", $title);
-                $code = $regmatch[1] == "Mac OSX" ? "mac-2" : "mac-3";
-            } elseif (preg_match('/Darwin/i', $userAgentString)) {
-                $title = "Mac OS Darwin";
-                $code = "mac-1";
-            } else {
-                $title = "Macintosh";
-                $code = "mac-1";
-            }
         } elseif (preg_match('/MorphOS/i', $userAgentString)) {
             $link = "http://www.morphos-team.net/";
             $title['osName'] = "MorphOS";
