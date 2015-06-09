@@ -16,7 +16,7 @@ class Windows extends BaseDetector
         'Windows NT (6.4|10.0)' => '10',
         'Windows NT 6.3' => '8.1',
         'Windows NT 6.2' => '8',
-        'Windows NT 6.1 ' => '7',
+        'Windows NT 6.1' => '7',
         'Windows NT 6.0' => 'Vista',
         'Windows NT 5.2' => 'Server 2003',
         'Windows (NT 5.1|XP)' => 'XP',
