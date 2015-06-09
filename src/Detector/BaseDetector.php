@@ -16,13 +16,8 @@ abstract class BaseDetector
         $output = [];
         $regExString = '/(' . static::$browserRegEx . ')/i';
 
-        var_dump(static::$browserName);
-        var_dump(static::$browserRegEx);
         if (preg_match($regExString, $userAgentString, $result)) {
-            if (strtolower($result[1]) === strtolower(static::$browserName)) {
-                $output['name'] = static::$browserName;
-                $output['version'] = static::detectVersion($userAgentString);
-
+            if (strtolower($result[1]) === strtolower(static::$browserRegEx)) {
                 $output = [
                     'name' => static::$browserName,
                     'version' => static::detectVersion($userAgentString),
@@ -34,14 +29,14 @@ abstract class BaseDetector
                         $output['osName'] = $os['osName'];
                     }
                     else {
-                        $output['osName'] = 'Unknown';
+                        $output['osName'] = 'unknown';
                     }
 
                     if (isset($os['osVersion'])) {
                         $output['osVersion'] = $os['osVersion'];
                     }
                     else {
-                        $output['osVersion'] = 'Unknown';
+                        $output['osVersion'] = 'unknown';
                     }
                 }
             }
@@ -57,9 +52,9 @@ abstract class BaseDetector
     public static function detectVersion($userAgentString)
     {
         // Grab the browser version if its present
-        $version = 'Unknown';
-        $start = preg_quote(static::$browserName);
-        if (preg_match('/' . $start . '[\ |\/|\:]?([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
+        $version = 'unknown';
+        $start = preg_quote(static::$browserRegEx);
+        if (preg_match('/' . $start . '[\ ]?[\/|\:|\(]?([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
             if (count($regmatch) > 1) {
                 $version = $regmatch[1];
             }

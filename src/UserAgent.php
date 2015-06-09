@@ -8,7 +8,10 @@ class UserAgent
     protected static $detectorsList = [
         'IE114la',
         'IE115',
-        'Explorer2345'
+        'Explorer2345',
+        'AphoneBrowser360',
+        'Explorer360',
+        'Chrome360'
     ];
 
     /**
@@ -147,7 +150,6 @@ class UserAgent
 
     private static $browserRegEx = array(
         '2345chrome',
-        '360se|360ee|360\ aphone\ browser',
         'Abolimba',
         'Acoo\ Browser',
         'ANTFresco',
@@ -389,30 +391,10 @@ class UserAgent
         'ZipZap'
     );
     private static $browserList = array(
-        '2345explorer' => array(
-            'link' => 'http://ie.2345.com/',
-            'title' => '{%2345Explorer%}',
-            'code' => '2345explorer',
-        ),
         '2345chrome' => array(
             'link' => 'http://chrome.2345.com/',
             'title' => '{%2345Chrome%}',
             'code' => '2345chrome',
-        ),
-        '360se' => array(
-            'link' => 'http://se.360.cn/',
-            'title' => '360 Explorer',
-            'code' => '360se',
-        ),
-        '360ee' => array(
-            'link' => 'http://chrome.360.cn/',
-            'title' => '360 Chrome',
-            'code' => '360se',
-        ),
-        '360 aphone browser' => array(
-            'link' => 'http://mse.360.cn/index.html',
-            'title' => '360 Aphone Browser',
-            'code' => '360se',
         ),
         'abolimba' => array(
             'link' => 'http://www.aborange.de/products/freeware/abolimba-multibrowser.php',
@@ -1688,8 +1670,6 @@ class UserAgent
 
         foreach (self::$detectorsList as $detector) {
             $class = self::getDetectorClass($detector);
-            var_dump($detector);
-            var_dump($class);
             $result = $class::detect($userAgentString);
 
             if ($result !== false) {
