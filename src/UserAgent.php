@@ -13,7 +13,8 @@ class UserAgent
         'Explorer360',
         'Chrome360',
         'YandexBrowser',
-        'InternetExplorer'
+        'InternetExplorer',
+        'Amigo'
     ];
 
     protected static $osDetectorsList = [
@@ -172,7 +173,6 @@ class UserAgent
         'Alienforce',
         'Amaya',
         'Amiga-AWeb',
-        'MRCHROME',
         'America\ Online\ Browser',
         'AmigaVoyager',
         'AOL',
@@ -440,11 +440,6 @@ class UserAgent
             'link' => 'http://www.espial.com/',
             'title' => 'ANT {%Fresco%}',
             'code' => 'antfresco',
-        ),
-        'mrchrome' => array(
-            'link' => 'http://amigo.mail.ru/',
-            'title' => 'Amigo',
-            'code' => 'amigo',
         ),
         'myibrow' => array(
             'link' => 'http://myinternetbrowser.webove-stranky.org/',
