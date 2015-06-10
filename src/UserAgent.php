@@ -15,13 +15,15 @@ class UserAgent
         'YandexBrowser',
         'InternetExplorer',
         'Amigo',
-        'IEMobile'
+        'IEMobile',
+        'Playstation4'
     ];
 
     protected static $osDetectorsList = [
         'OS\\Windows',
         'OS\\WindowsPhone',
         'OS\\MacOS',
+        'OS\\Playstation',
     ];
 
     /**
@@ -339,7 +341,6 @@ class UserAgent
         'Perk',
         'Phaseout',
         'Phoenix',
-        'PlayStation\ 4',
         'Podkicker',
         'Podkicker\ Pro',
         'Pogo',
@@ -1252,11 +1253,6 @@ class UserAgent
             'link' => 'http://www.mozilla.org/projects/phoenix/phoenix-release-notes.html',
             'title' => '{%Phoenix%}',
             'code' => 'phoenix',
-        ),
-        'playstation 4' => array(
-            'link' => 'http://us.playstation.com/',
-            'title' => 'PS4 Web Browser',
-            'code' => 'webkit',
         ),
         'podkicker' => array(
             'link' => 'http://www.podkicker.com/',

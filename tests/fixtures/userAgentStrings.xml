@@ -689,5 +689,29 @@
                 Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; Nokia;N70)
             </field>
         </string>
+        <string>
+            <field name="browser">PS4 Web Browser</field>
+            <field name="browser_version">1.51</field>
+            <field name="os">Playstation</field>
+            <field name="os_version">4</field>
+            <field name="device">Playstation</field>
+            <field name="device_version">4</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (PlayStation 4 1.51) AppleWebKit/536.26 (KHTML, like Gecko)
+            </field>
+        </string>
+        <string>
+            <field name="browser">PS4 Web Browser</field>
+            <field name="browser_version">1.000</field>
+            <field name="os">Playstation</field>
+            <field name="os_version">4</field>
+            <field name="device">Playstation</field>
+            <field name="device_version">4</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)
+            </field>
+        </string>
     </strings>
 </document>
