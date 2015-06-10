@@ -6,7 +6,7 @@ namespace userAgent\userAgent\Detector;
 class Amigo extends BaseDetector {
     protected static $link = 'http://amigo.mail.ru/';
     protected static $name = 'Amigo';
-    protected static $regEx = 'MRCHROME';
+    protected static $regEx = '/MRCHROME/i';
 
 
     public static function detectVersion($userAgentString)

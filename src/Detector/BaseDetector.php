@@ -10,37 +10,27 @@ abstract class BaseDetector
     protected static $link = '';
     protected static $name = '';
     protected static $regEx = '';
+    protected static $excludedRegEx = '';
     protected static $isMobile = false;
     protected static $isX64 = false;
 
     public static function detect(UserAgent $userAgent)
     {
         $userAgentString = $userAgent->getUserAgentString();
-        $output = [];
-        $regExString = '/(' . static::$regEx . ')/i';
 
-        if (preg_match($regExString, $userAgentString, $result)) {
+        if(strlen(static::$excludedRegEx)) {
+            $excludeResult = !preg_match(static::$excludedRegEx, $userAgentString);
+        }
+        else {
+            $excludeResult = true;
+        }
+
+        if (preg_match(static::$regEx, $userAgentString, $result) && $excludeResult) {
             $userAgent->setBrowser(static::$name);
             $userAgent->setBrowserVersion(static::detectVersion($userAgentString));
             $userAgent->setIsMobile(static::$isMobile);
 
-            if ($os = self::detectOS($userAgentString)) {
-                if (isset($os['osName'])) {
-                    $output['osName'] = $os['osName'];
-                } else {
-                    $output['osName'] = 'unknown';
-                }
-
-                if (isset($os['osVersion'])) {
-                    $output['osVersion'] = $os['osVersion'];
-                } else {
-                    $output['osVersion'] = 'unknown';
-                }
-            }
-        }
-
-        if (!empty($output)) {
-            return $output;
+            return true;
         }
 
         return false;
@@ -50,7 +40,7 @@ abstract class BaseDetector
     {
         // Grab the browser version if its present
         $version = 'unknown';
-        $start = preg_quote(static::$regEx);
+        $start = preg_quote(substr(static::$regEx, 1, strlen(static::$regEx)-3));
         if (preg_match('/' . $start . '[\ ]?[\/|\:|\(]?([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
             if (count($regmatch) > 1) {
                 $version = $regmatch[1];

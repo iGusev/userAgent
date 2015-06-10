@@ -9,39 +9,7 @@ class InternetExplorer extends BaseDetector
     protected static $link = 'http://www.microsoft.com/windows/products/winfamily/ie/default.mspx';
     protected static $name = 'Internet Explorer';
     protected static $regEx = '/MSIE|Trident/i';
-    protected static $excludedRegEx = '/IEMobile/i';
-
-    public static function detect(UserAgent $userAgent)
-    {
-        $userAgentString = $userAgent->getUserAgentString();
-        $output = [];
-
-        if (preg_match(static::$regEx, $userAgentString, $result) && !preg_match(static::$excludedRegEx, $userAgentString)) {
-            $userAgent->setBrowser(static::$name);
-            $userAgent->setBrowserVersion(static::detectVersion($userAgentString));
-            $userAgent->setIsMobile(static::$isMobile);
-
-            if ($os = self::detectOS($userAgentString)) {
-                if (isset($os['osName'])) {
-                    $output['osName'] = $os['osName'];
-                } else {
-                    $output['osName'] = 'unknown';
-                }
-
-                if (isset($os['osVersion'])) {
-                    $output['osVersion'] = $os['osVersion'];
-                } else {
-                    $output['osVersion'] = 'unknown';
-                }
-            }
-        }
-
-        if (!empty($output)) {
-            return $output;
-        }
-
-        return false;
-    }
+    protected static $excludedRegEx = '/IEMobile|2345Explorer/i';
 
 
     public static function detectVersion($userAgentString)

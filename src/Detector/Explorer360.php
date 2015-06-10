@@ -7,5 +7,5 @@ class Explorer360 extends BaseDetector
 {
     protected static $link = 'http://se.360.cn/';
     protected static $name = '360 Explorer';
-    protected static $regEx = '360se';
+    protected static $regEx = '/360se/i';
 }
