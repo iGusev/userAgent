@@ -18,9 +18,9 @@ class UserAgent
     ];
 
     protected static $osDetectorsList = [
-        'Windows', // before Windows Phone
-        'WindowsPhone',
-        'MacOS',
+        'OS\\Windows', // before Windows Phone
+        'OS\\WindowsPhone',
+        'OS\\MacOS',
     ];
 
     /**
@@ -58,7 +58,7 @@ class UserAgent
         $userAgentString = trim($userAgentString);
         $this->setUserAgentString($userAgentString);
 
-        $this->analyze($this->getUserAgentString());
+//        $this->analyze($this->getUserAgentString());
     }
 
     /**
@@ -83,7 +83,7 @@ class UserAgent
     public function getBrowser()
     {
         if (is_null($this->browser)) {
-            $this->analyzeBrowser();
+            $this->mainAnalyze();
         }
 
         return $this->browser;
@@ -103,7 +103,7 @@ class UserAgent
     public function getBrowserVersion()
     {
         if (is_null($this->browserVersion)) {
-            $this->analyzeBrowser();
+            $this->mainAnalyze();
         }
 
         return $this->browserVersion;
@@ -122,6 +122,9 @@ class UserAgent
      */
     public function isMobile()
     {
+        if (is_null($this->isMobile)) {
+            $this->mainAnalyze();
+        }
         return $this->isMobile;
     }
 
@@ -139,7 +142,7 @@ class UserAgent
     public function getOs()
     {
         if (is_null($this->os)) {
-            $this->analyzeOS();
+            $this->mainAnalyze();
         }
 
         return $this->os;
@@ -159,7 +162,7 @@ class UserAgent
     public function getOsVersion()
     {
         if (is_null($this->osVersion)) {
-            $this->analyzeOS();
+            $this->mainAnalyze();
         }
 
         return $this->osVersion;
@@ -1677,41 +1680,15 @@ class UserAgent
         return 'userAgent\\userAgent\\Detector\\' . $name;
     }
 
-    protected function analyzeOS()
+    protected function mainAnalyze()
     {
-        $flag = false;
-        foreach (self::$osDetectorsList as $detector) {
-            $class = self::getDetectorClass('OS\\' . $detector);
-            $result = $class::detect($this);
-
-            if ($result) {
-                $flag = true;
-                break;
+        foreach ([self::$browserDetectorsList, self::$osDetectorsList] as $detectorList) {
+            foreach ($detectorList as $detector) {
+                $class = self::getDetectorClass($detector);
+                if ($class::detect($this) !== false) {
+                    break;
+                }
             }
-        }
-        if (!$flag) {
-            $this->setOs('unknown');
-            $this->setOsVersion('unknown');
-        }
-    }
-
-    protected function analyzeBrowser()
-    {
-        $flag = false;
-
-        foreach (self::$browserDetectorsList as $detector) {
-            $class = self::getDetectorClass($detector);
-            $result = $class::detect($this);
-
-            if ($result) {
-                $flag = true;
-                break;
-            }
-        }
-
-        if (!$flag) {
-            $this->setBrowser('unknown');
-            $this->setBrowserVersion('unknown');
         }
     }
 
@@ -1730,15 +1707,15 @@ class UserAgent
                 if (isset($result['version'])) {
                     $this->setBrowserVersion($result['version']);
                 }
-                if (isset($result['is_mobile'])) {
-                    $this->setIsMobile($result['is_mobile']);
-                }
-                if ($this->getOs() == 'unknown') {
-                    $this->setOs($result['osName']);
-                }
-                if ($this->getOsVersion() == 'unknown') {
-                    $this->setOsVersion($result['osVersion']);
-                }
+//                if (isset($result['is_mobile'])) {
+//                    $this->setIsMobile($result['is_mobile']);
+//                }
+                //                if ($this->getOs() == 'unknown' && isset($result['osName'])) {
+                //                    $this->setOs($result['osName']);
+                //                }
+                //                if ($this->getOsVersion() == 'unknown' && isset($result['osVersion'])) {
+                //                    $this->setOsVersion($result['osVersion']);
+                //                }
                 $flag = true;
                 break;
             }

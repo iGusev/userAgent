@@ -2,28 +2,11 @@
 
 namespace userAgent\userAgent\Detector;
 
-
-use userAgent\userAgent\UserAgent;
-
 class InternetExplorer extends BaseDetector
 {
     protected static $link = 'http://www.microsoft.com/windows/products/winfamily/ie/default.mspx';
     protected static $name = 'Internet Explorer';
-    protected static $regEx = '/MSIE|Trident/i';
-
-    public static function detect(UserAgent $userAgent)
-    {
-        $userAgentString = $userAgent->getUserAgentString();
-        if (preg_match(static::$regEx, $userAgentString, $result)) {
-            return [
-                'name' => static::$name,
-                'version' => static::detectVersion($userAgentString),
-                'is_mobile' => static::$isMobile
-            ];
-        }
-
-        return false;
-    }
+    protected static $regEx = 'MSIE|Trident';
 
     public static function detectVersion($userAgentString)
     {

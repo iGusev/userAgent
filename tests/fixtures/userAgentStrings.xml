@@ -39,20 +39,20 @@
                 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; 2345Explorer 3.4.0.12519)
             </field>
         </string>
-        <string>
-            <field name="browser">360 Aphone Browser</field>
-            <field name="browser_version">5.4.1</field>
-            <field name="os">Android</field>
-            <field name="os_version">4.2.2</field>
-            <field name="device">Xiaomi</field>
-            <field name="device_version">HM-NOTE 1W</field>
-            <field name="is_mobile">true</field>
-            <field name="string">
-                Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1W Build/JDQ39) AppleWebKit/534.30 (KHTML, like
-                Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled);
-                360(android,uppayplugin); 360 Aphone Browser (5.4.1)
-            </field>
-        </string>
+        <!--<string>-->
+            <!--<field name="browser">360 Aphone Browser</field>-->
+            <!--<field name="browser_version">5.4.1</field>-->
+            <!--<field name="os">Android</field>-->
+            <!--<field name="os_version">4.2.2</field>-->
+            <!--<field name="device">Xiaomi</field>-->
+            <!--<field name="device_version">HM-NOTE 1W</field>-->
+            <!--<field name="is_mobile">true</field>-->
+            <!--<field name="string">-->
+                <!--Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1W Build/JDQ39) AppleWebKit/534.30 (KHTML, like-->
+                <!--Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled);-->
+                <!--360(android,uppayplugin); 360 Aphone Browser (5.4.1)-->
+            <!--</field>-->
+        <!--</string>-->
         <string>
             <field name="browser">360 Explorer</field>
             <field name="browser_version">unknown</field>

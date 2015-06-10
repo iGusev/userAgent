@@ -46,7 +46,7 @@ class Windows extends BaseDetector
         $userAgentString = $userAgent->getUserAgentString();
         if (preg_match(static::$regEx, $userAgentString)) {
             $userAgent->setOs(static::$name);
-            $userAgent->setOsVersion(self::detectVersion($userAgentString));
+            $userAgent->setOsVersion(static::detectVersion($userAgentString));
             $userAgent->setIsMobile(static::$isMobile);
 
             return true;
