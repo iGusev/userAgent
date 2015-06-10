@@ -2,10 +2,9 @@
 
 namespace userAgent\userAgent\Detector\OS;
 
-use userAgent\userAgent\Detector\BaseDetector;
 use userAgent\userAgent\UserAgent;
 
-class MacOS extends BaseDetector
+class MacOS extends AbstractOSDetector
 {
     protected static $link = 'http://www.apple.com/macosx/';
     protected static $name = 'Mac OS X';

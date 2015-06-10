@@ -2,10 +2,9 @@
 
 namespace userAgent\userAgent\Detector\OS;
 
-use userAgent\userAgent\Detector\BaseDetector;
 use userAgent\userAgent\UserAgent;
 
-class Windows extends BaseDetector
+class Windows extends AbstractOSDetector
 {
     protected static $link = 'http://www.microsoft.com/windows/';
     protected static $name = 'Windows';
@@ -44,16 +43,8 @@ class Windows extends BaseDetector
     public static function detect(UserAgent $userAgent)
     {
         static::$isMobile = false;
-        $userAgentString = $userAgent->getUserAgentString();
-        if (preg_match(static::$regEx, $userAgentString) && !preg_match(static::$excludedRegEx, $userAgentString)) {
-            $userAgent->setOs(static::$name);
-            $userAgent->setOsVersion(static::detectVersion($userAgentString));
-            $userAgent->setIsMobile(static::$isMobile);
 
-            return true;
-        }
-
-        return false;
+        return parent::detect($userAgent);
     }
 
     public static function detectVersion($userAgentString)

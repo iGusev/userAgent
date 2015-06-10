@@ -3,7 +3,7 @@
 namespace userAgent\userAgent\Detector;
 
 
-class IE115 extends BaseDetector
+class IE115 extends AbstractBrowserDetector
 {
     protected static $link = 'http://ie.115.com/';
     protected static $name = '115Browser';

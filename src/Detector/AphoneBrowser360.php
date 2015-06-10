@@ -3,7 +3,7 @@
 namespace userAgent\userAgent\Detector;
 
 
-class AphoneBrowser360 extends BaseDetector
+class AphoneBrowser360 extends AbstractBrowserDetector
 {
     protected static $link = 'http://mse.360.cn/index.html';
     protected static $name = '360 Aphone Browser';
