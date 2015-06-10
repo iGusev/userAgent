@@ -10,6 +10,7 @@ class Windows extends BaseDetector
     protected static $link = 'http://www.microsoft.com/windows/';
     protected static $name = 'Windows';
     protected static $regEx = '/Windows|Win(NT|32|95|98|16)|ZuneWP7|WPDesktop/i';
+    protected static $excludedRegEx = '/Windows Phone/i';
     protected static $isMobile = false;
 
     protected static $versionsRegEx = [
@@ -44,14 +45,13 @@ class Windows extends BaseDetector
     {
         static::$isMobile = false;
         $userAgentString = $userAgent->getUserAgentString();
-        if (preg_match(static::$regEx, $userAgentString)) {
+        if (preg_match(static::$regEx, $userAgentString) && !preg_match(static::$excludedRegEx, $userAgentString)) {
             $userAgent->setOs(static::$name);
             $userAgent->setOsVersion(static::detectVersion($userAgentString));
             $userAgent->setIsMobile(static::$isMobile);
 
             return true;
         }
-
 
         return false;
     }

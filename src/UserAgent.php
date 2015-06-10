@@ -14,11 +14,12 @@ class UserAgent
         'Chrome360',
         'YandexBrowser',
         'InternetExplorer',
-        'Amigo'
+        'Amigo',
+        'IEMobile'
     ];
 
     protected static $osDetectorsList = [
-        'OS\\Windows', // before Windows Phone
+        'OS\\Windows',
         'OS\\WindowsPhone',
         'OS\\MacOS',
     ];
@@ -401,7 +402,6 @@ class UserAgent
         'Vivaldi',
         'Vonkeror',
         'w3m',
-        'IEMobile',
         'Waterfox',
         'WebianShell',
         'Webrender',
@@ -1592,11 +1592,6 @@ class UserAgent
             'link' => 'http://curl.haxx.se/',
             'title' => '{%curl%}',
             'code' => 'null',
-        ),
-        'iemobile' => array(
-            'link' => 'http://www.microsoft.com/windowsmobile/en-us/downloads/microsoft/internet-explorer-mobile.mspx',
-            'title' => '{%IEMobile%}',
-            'code' => 'msie-mobile',
         ),
         'waterfox' => array(
             'link' => 'https://www.waterfoxproject.org/',

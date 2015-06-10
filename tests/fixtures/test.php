@@ -1067,18 +1067,6 @@ $testList = array(
         array('img/16/browser/null.png', 'img/16/browser/null.png', 'iNet Browser 2.5', 'Unknown'),
     ),
     array(
-        array('Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)'),
-        array('img/16/browser/msie-mobile.png', 'img/16/os/wp7.png', 'IEMobile 9.0', 'Windows Phone 7.5'),
-    ),
-    array(
-        array('HTC_Touch_3G Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)'),
-        array('img/16/browser/msie-mobile.png', 'img/16/device/htc.png', 'IEMobile 7.11', 'HTC Touch'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; Nokia;N70)'),
-        array('img/16/browser/msie-mobile.png', 'img/16/device/nokia.png', 'IEMobile 7.0', 'Nokia'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-GB; rv:1.9.0.7) Gecko/2009030814 Iceweasel Firefox/3.0.7 (Debian-3.0.7-1)'),
         array('img/16/browser/iceweasel.png', 'img/16/os/debian.png', 'IceWeasel ', 'Debian GNU/Linux'),
     ),
@@ -1773,10 +1761,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (Linux; U; Android 2.2.2; de-de; Dell Streak Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'),
         array('img/16/browser/android-webkit.png', 'img/16/device/dell.png', 'Android Webkit 4.0', 'Dell Streak'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; DELL; Venue Pro)'),
-        array('img/16/browser/msie-mobile.png', 'img/16/device/dell.png', 'IEMobile 7.0', 'Dell'),
     ),
     array(
         array('Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'),

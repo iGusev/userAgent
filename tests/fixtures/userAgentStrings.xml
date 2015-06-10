@@ -40,18 +40,18 @@
             </field>
         </string>
         <!--<string>-->
-            <!--<field name="browser">360 Aphone Browser</field>-->
-            <!--<field name="browser_version">5.4.1</field>-->
-            <!--<field name="os">Android</field>-->
-            <!--<field name="os_version">4.2.2</field>-->
-            <!--<field name="device">Xiaomi</field>-->
-            <!--<field name="device_version">HM-NOTE 1W</field>-->
-            <!--<field name="is_mobile">true</field>-->
-            <!--<field name="string">-->
-                <!--Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1W Build/JDQ39) AppleWebKit/534.30 (KHTML, like-->
-                <!--Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled);-->
-                <!--360(android,uppayplugin); 360 Aphone Browser (5.4.1)-->
-            <!--</field>-->
+        <!--<field name="browser">360 Aphone Browser</field>-->
+        <!--<field name="browser_version">5.4.1</field>-->
+        <!--<field name="os">Android</field>-->
+        <!--<field name="os_version">4.2.2</field>-->
+        <!--<field name="device">Xiaomi</field>-->
+        <!--<field name="device_version">HM-NOTE 1W</field>-->
+        <!--<field name="is_mobile">true</field>-->
+        <!--<field name="string">-->
+        <!--Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HM NOTE 1W Build/JDQ39) AppleWebKit/534.30 (KHTML, like-->
+        <!--Gecko) Version/4.0 Mobile Safari/534.30; 360browser(securitypay,securityinstalled);-->
+        <!--360(android,uppayplugin); 360 Aphone Browser (5.4.1)-->
+        <!--</field>-->
         <!--</string>-->
         <string>
             <field name="browser">360 Explorer</field>
@@ -269,7 +269,8 @@
             <field name="device_version">unknown</field>
             <field name="is_mobile">false</field>
             <field name="string">
-                Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.74 Safari/537.36 MRCHROME
+                Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.74 Safari/537.36
+                MRCHROME
             </field>
         </string>
 
@@ -574,65 +575,119 @@
         <!--Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.2.0-->
         <!--</field>-->
         <!--</string>-->
-        <!--<string>-->
-        <!--<field name="browser">IEMobile</field>-->
-        <!--<field name="browser_version">10.0</field>-->
-        <!--<field name="os">Windows Phone</field>-->
-        <!--<field name="os_version">8.0</field>-->
-        <!--<field name="device">Nokia</field>-->
-        <!--<field name="device_version">Lumia 920</field>-->
-        <!--<field name="is_mobile">true</field>-->
-        <!--<field name="string">-->
-        <!--Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Nokia 920)-->
-        <!--</field>-->
-        <!--</string>-->
-        <!--<string>-->
-        <!--<field name="browser">IEMobile</field>-->
-        <!--<field name="browser_version">11.0</field>-->
-        <!--<field name="os">Windows Phone</field>-->
-        <!--<field name="os_version">8.1</field>-->
-        <!--<field name="device">HTC</field>-->
-        <!--<field name="device_version">8S</field>-->
-        <!--<field name="is_mobile">true</field>-->
-        <!--<field name="string">-->
-        <!--Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; HTC; Windows Phone 8S by HTC) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537-->
-        <!--</field>-->
-        <!--</string>-->
-        <!--<string>-->
-        <!--<field name="browser">IEMobile</field>-->
-        <!--<field name="browser_version">11.0</field>-->
-        <!--<field name="os">Windows Phone</field>-->
-        <!--<field name="os_version">8.1</field>-->
-        <!--<field name="device">Nokia</field>-->
-        <!--<field name="device_version">Lumia 1020</field>-->
-        <!--<field name="is_mobile">true</field>-->
-        <!--<field name="string">-->
-        <!--Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 909) like Gecko-->
-        <!--</field>-->
-        <!--</string>-->
-        <!--<string>-->
-        <!--<field name="browser">IEMobile</field>-->
-        <!--<field name="browser_version">11.0</field>-->
-        <!--<field name="os">Windows Phone</field>-->
-        <!--<field name="os_version">8.1</field>-->
-        <!--<field name="device">Nokia</field>-->
-        <!--<field name="device_version">Lumia 1520</field>-->
-        <!--<field name="is_mobile">true</field>-->
-        <!--<field name="string">-->
-        <!--Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 1520) like Gecko-->
-        <!--</field>-->
-        <!--</string>-->
-        <!--<string>-->
-        <!--<field name="browser">IEMobile</field>-->
-        <!--<field name="browser_version">11.0</field>-->
-        <!--<field name="os">Windows Phone</field>-->
-        <!--<field name="os_version">8.1</field>-->
-        <!--<field name="device">Nokia</field>-->
-        <!--<field name="device_version">Lumia 920</field>-->
-        <!--<field name="is_mobile">true</field>-->
-        <!--<field name="string">-->
-        <!--Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 920) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537-->
-        <!--</field>-->
-        <!--</string>-->
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">10.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">8.0</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">Lumia 920</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA;
+                Nokia 920)
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">11.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">8.1</field>
+            <field name="device">HTC</field>
+            <field name="device_version">8S</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0;
+                HTC; Windows Phone 8S by HTC) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile
+                Safari/537
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">11.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">8.1</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">Lumia 1020</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Nokia 909) like
+                Gecko
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">11.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">8.1</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">Lumia 1520</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 1520) like
+                Gecko
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">11.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">8.1</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">Lumia 920</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0;
+                NOKIA; Nokia 920) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">7.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">7.5</field>
+            <field name="device">DELL</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; DELL; Venue Pro)
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">9.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">7.5</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">7.11</field>
+            <field name="os">Windows</field>
+            <field name="os_version">CE</field>
+            <field name="device">HTC</field>
+            <field name="device_version">Touch 3G</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                HTC_Touch_3G Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+            </field>
+        </string>
+        <string>
+            <field name="browser">IEMobile</field>
+            <field name="browser_version">7.0</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">7.0</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">N70</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; Nokia;N70)
+            </field>
+        </string>
     </strings>
 </document>
