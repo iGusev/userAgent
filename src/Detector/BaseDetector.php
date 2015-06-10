@@ -20,25 +20,21 @@ abstract class BaseDetector
         $regExString = '/(' . static::$regEx . ')/i';
 
         if (preg_match($regExString, $userAgentString, $result)) {
-            if (strtolower($result[1]) === strtolower(static::$regEx)) {
-                $output = [
-                    'name' => static::$name,
-                    'version' => static::detectVersion($userAgentString),
-                    'is_mobile' => static::$isMobile
-                ];
+            $userAgent->setBrowser(static::$name);
+            $userAgent->setBrowserVersion(static::detectVersion($userAgentString));
+            $userAgent->setIsMobile(static::$isMobile);
 
-                if ($os = self::detectOS($userAgentString)) {
-                    if (isset($os['osName'])) {
-                        $output['osName'] = $os['osName'];
-                    } else {
-                        $output['osName'] = 'unknown';
-                    }
+            if ($os = self::detectOS($userAgentString)) {
+                if (isset($os['osName'])) {
+                    $output['osName'] = $os['osName'];
+                } else {
+                    $output['osName'] = 'unknown';
+                }
 
-                    if (isset($os['osVersion'])) {
-                        $output['osVersion'] = $os['osVersion'];
-                    } else {
-                        $output['osVersion'] = 'unknown';
-                    }
+                if (isset($os['osVersion'])) {
+                    $output['osVersion'] = $os['osVersion'];
+                } else {
+                    $output['osVersion'] = 'unknown';
                 }
             }
         }

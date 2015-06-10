@@ -82,6 +82,10 @@ class UserAgent
      */
     public function getBrowser()
     {
+        if (is_null($this->browser)) {
+            $this->analyzeBrowser();
+        }
+
         return $this->browser;
     }
 
@@ -98,6 +102,10 @@ class UserAgent
      */
     public function getBrowserVersion()
     {
+        if (is_null($this->browserVersion)) {
+            $this->analyzeBrowser();
+        }
+
         return $this->browserVersion;
     }
 
@@ -1684,6 +1692,26 @@ class UserAgent
         if (!$flag) {
             $this->setOs('unknown');
             $this->setOsVersion('unknown');
+        }
+    }
+
+    protected function analyzeBrowser()
+    {
+        $flag = false;
+
+        foreach (self::$browserDetectorsList as $detector) {
+            $class = self::getDetectorClass($detector);
+            $result = $class::detect($this);
+
+            if ($result) {
+                $flag = true;
+                break;
+            }
+        }
+
+        if (!$flag) {
+            $this->setBrowser('unknown');
+            $this->setBrowserVersion('unknown');
         }
     }
 
