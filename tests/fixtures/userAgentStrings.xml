@@ -713,5 +713,17 @@
                 Mozilla/5.0 (PlayStation 4 1.000) AppleWebKit/536.26 (KHTML, like Gecko)
             </field>
         </string>
+        <string>
+            <field name="browser">ICEBrowser</field>
+            <field name="browser_version">6.1.2</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Java 1.6.0_01; Windows XP 5.1 x86; en) ICEbrowser/v6_1_2
+            </field>
+        </string>
     </strings>
 </document>

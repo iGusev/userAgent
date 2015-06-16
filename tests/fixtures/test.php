@@ -1667,10 +1667,6 @@ $testList = array(
         array('img/16/browser/hv3.png', 'img/16/os/android.png', 'Hv3 Build', 'Android 4.2.2'),
     ),
     array(
-        array('Mozilla/5.0 (Java 1.6.0_01; Windows XP 5.1 x86; en) ICEbrowser/v6_1_2'),
-        array('img/16/browser/icebrowser.png', 'img/16/os/win-2.png', 'IceBrowser v6', 'Windows XP'),
-    ),
-    array(
         array('Mozilla/5.0 (iPhone; CPU iPhone OS 712 like Mac OS X) AppleWebKit/537.51.2 (KHTML like Gecko) Mobile/11D257 FBAN/FBIOS;FBAV/14.0.0.25.26;FBBV/4017285;FBDV/iPhone61;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/Strata;FBID/phone;FBLC/enUS;FBOP/5'),
         array('img/16/browser/kirix-strata.png', 'img/16/device/iphone.png', 'Kirix Strata ', 'iPhone iOS 712'),
     ),
