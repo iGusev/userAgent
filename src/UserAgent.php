@@ -269,7 +269,6 @@ class UserAgent
         'MxNitro',
         'IBrowse',
         'iCab',
-        'IceBrowser',
         'Iceape',
         'IceCat',
         'IceDragon',
@@ -883,11 +882,6 @@ class UserAgent
             'link' => 'http://www.icab.de/',
             'title' => '{%iCab%}',
             'code' => 'icab',
-        ),
-        'icebrowser' => array(
-            'link' => 'http://www.icesoft.com/products/icebrowser.html',
-            'title' => '{%IceBrowser%}',
-            'code' => 'icebrowser',
         ),
         'iceape' => array(
             'link' => 'http://packages.debian.org/iceape',
