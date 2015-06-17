@@ -26,6 +26,7 @@ class UserAgent
         'OS\\WindowsPhone',
         'OS\\MacOS',
         'OS\\Playstation',
+        'OS\\CentOS',
     ];
 
     /**

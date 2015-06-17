@@ -18,10 +18,9 @@ abstract class BaseDetector
     {
         $userAgentString = $userAgent->getUserAgentString();
 
-        if(strlen(static::$excludedRegEx)) {
+        if (strlen(static::$excludedRegEx)) {
             $excludeResult = !preg_match(static::$excludedRegEx, $userAgentString);
-        }
-        else {
+        } else {
             $excludeResult = true;
         }
 
@@ -40,7 +39,7 @@ abstract class BaseDetector
     {
         // Grab the browser version if its present
         $version = 'unknown';
-        $start = preg_quote(substr(static::$regEx, 1, strlen(static::$regEx)-3));
+        $start = preg_quote(substr(static::$regEx, 1, strlen(static::$regEx) - 3));
         if (preg_match('/' . $start . '[\ ]?[\/|\:|\(]?([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
             if (count($regmatch) > 1) {
                 $version = $regmatch[1];
@@ -77,14 +76,6 @@ abstract class BaseDetector
             $link = "http://www.archlinux.org/";
             $title['osName'] = "Arch Linux";
             $code = "archlinux";
-        } elseif (preg_match('/CentOS/i', $userAgentString)) {
-            $link = "http://www.centos.org/";
-            $title['osName'] = "CentOS";
-            if (preg_match('/.el([.0-9a-zA-Z]+).centos/i', $userAgentString, $regmatch)) {
-                $title['osName'] .= " " . $regmatch[1];
-            }
-            $code = "centos";
-            // @codeCoverageIgnoreStart
         } elseif (preg_match('/Chakra/i', $userAgentString)) {
             $link = "http://www.chakra-linux.org/";
             $title['osName'] = "Chakra Linux";
