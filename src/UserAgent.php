@@ -64,10 +64,7 @@ class UserAgent
 
     public function __construct($userAgentString)
     {
-        $userAgentString = trim($userAgentString);
-        $this->setUserAgentString($userAgentString);
-
-//        $this->analyze($this->getUserAgentString());
+        $this->setUserAgentString(trim($userAgentString));
     }
 
     /**
@@ -91,8 +88,8 @@ class UserAgent
      */
     public function getBrowser()
     {
-        if (is_null($this->browser)) {
-            $this->mainAnalyze();
+        if (is_null($this->browser) && !$this->mainAnalyze(self::$browserDetectorsList)) {
+            $this->browser = 'unknown';
         }
 
         return $this->browser;
@@ -111,8 +108,8 @@ class UserAgent
      */
     public function getBrowserVersion()
     {
-        if (is_null($this->browserVersion)) {
-            $this->mainAnalyze();
+        if (is_null($this->browserVersion) && !$this->mainAnalyze(self::$browserDetectorsList)) {
+            $this->browserVersion = 'unknown';
         }
 
         return $this->browserVersion;
@@ -131,9 +128,10 @@ class UserAgent
      */
     public function isMobile()
     {
-        if (is_null($this->isMobile)) {
-            $this->mainAnalyze();
+        if (is_null($this->browserVersion) && (!$this->mainAnalyze(self::$browserDetectorsList) || !$this->mainAnalyze(self::$osDetectorsList))) {
+            $this->isMobile = false;
         }
+
         return $this->isMobile;
     }
 
@@ -150,8 +148,8 @@ class UserAgent
      */
     public function getOs()
     {
-        if (is_null($this->os)) {
-            $this->mainAnalyze();
+        if (is_null($this->os) && !$this->mainAnalyze(self::$osDetectorsList)) {
+            $this->os = 'unknown';
         }
 
         return $this->os;
@@ -170,8 +168,9 @@ class UserAgent
      */
     public function getOsVersion()
     {
-        if (is_null($this->osVersion)) {
-            $this->mainAnalyze();
+
+        if (is_null($this->osVersion) && !$this->mainAnalyze(self::$osDetectorsList)) {
+            $this->osVersion = 'unknown';
         }
 
         return $this->osVersion;
@@ -1648,46 +1647,21 @@ class UserAgent
         return 'userAgent\\userAgent\\Detector\\' . $name;
     }
 
-    protected function mainAnalyze()
+    protected function mainAnalyze($detectorsList = [])
     {
-        foreach ([self::$browserDetectorsList, self::$osDetectorsList] as $detectorList) {
-            foreach ($detectorList as $detector) {
-                $class = self::getDetectorClass($detector);
-                if ($class::detect($this) !== false) {
-                    break;
-                }
+        foreach ($detectorsList as $detector) {
+            $class = self::getDetectorClass($detector);
+            if ($class::detect($this) !== false) {
+                return true;
             }
         }
+
+        return false;
     }
 
     public function analyze($userAgentString)
     {
         $flag = false;
-
-        foreach (self::$browserDetectorsList as $detector) {
-            $class = self::getDetectorClass($detector);
-            $result = $class::detect($this);
-
-            if ($result !== false) {
-                if (isset($result['name'])) {
-                    $this->setBrowser($result['name']);
-                }
-                if (isset($result['version'])) {
-                    $this->setBrowserVersion($result['version']);
-                }
-//                if (isset($result['is_mobile'])) {
-//                    $this->setIsMobile($result['is_mobile']);
-//                }
-                //                if ($this->getOs() == 'unknown' && isset($result['osName'])) {
-                //                    $this->setOs($result['osName']);
-                //                }
-                //                if ($this->getOsVersion() == 'unknown' && isset($result['osVersion'])) {
-                //                    $this->setOsVersion($result['osVersion']);
-                //                }
-                $flag = true;
-                break;
-            }
-        }
 
         if ($flag === false) {
             $link = '';
