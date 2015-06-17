@@ -6,6 +6,7 @@ class UserAgent
 {
 
     protected static $browserDetectorsList = [
+        'Firefox',
         'GoogleChrome',
         'IE114la',
         'IE115',
