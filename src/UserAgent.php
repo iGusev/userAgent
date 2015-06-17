@@ -6,6 +6,7 @@ class UserAgent
 {
 
     protected static $browserDetectorsList = [
+        'GoogleChrome',
         'IE114la',
         'IE115',
         'Explorer2345',
@@ -1765,18 +1766,6 @@ class UserAgent
                 $link = "http://windows.microsoft.com/en-us/windows/preview-microsoft-edge-pc";
                 $title = $this->detect_browser_version(array('', 'Edge'));
                 $code = "edge";
-            } elseif (preg_match('/Chrome|crios/i', $userAgentString)) {
-                if (preg_match('/crios/i', $userAgentString)) {
-                    $link = "http://google.com/chrome/";
-                    //                $title = "Google " . $this->detect_browser_version(array('', 'CriOS'));
-                    $title = $this->detect_browser_version(array('', 'CriOS'));
-                    $code = "chrome";
-                } else {
-                    $link = "http://google.com/chrome/";
-                    //                $title = "Google " . $this->detect_browser_version(array('', 'Chrome'));
-                    $title = $this->detect_browser_version(array('', 'Chrome'));
-                    $code = "chrome";
-                }
             } elseif (preg_match('/Safari/i', $userAgentString)
                 && !preg_match('/Nokia/i', $userAgentString)
             ) {
