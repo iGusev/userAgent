@@ -19,7 +19,8 @@ class UserAgent
         'Playstation4',
         'ICEBrowser',
         'Bolt',
-        'Abolimba'
+        'Abolimba',
+        'Flock',
     ];
 
     protected static $osDetectorsList = [
@@ -251,7 +252,6 @@ class UserAgent
         'Fennec',
         'Firebird',
         'Fireweb\ Navigator',
-        'Flock',
         'Fluid',
         'Galeon',
         'GlobalMojo',
@@ -774,11 +774,6 @@ class UserAgent
             'link' => 'http://www.arsslensoft.tk/?q=node/7',
             'title' => '{%Fireweb Navigator%}',
             'code' => 'firewebnavigator',
-        ),
-        'flock' => array(
-            'link' => 'http://www.flock.com/',
-            'title' => '{%Flock%}',
-            'code' => 'flock',
         ),
         'fluid' => array(
             'link' => 'http://www.fluidapp.com/',
