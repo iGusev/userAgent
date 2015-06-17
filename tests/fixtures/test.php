@@ -1119,10 +1119,6 @@ $testList = array(
         array('img/16/browser/chrome.png', 'img/16/os/win-4.png', 'Google Chrome Frame ', 'Windows 7 x64'),
     ),
     array(
-        array('Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10'),
-        array('img/16/browser/chrome.png', 'img/16/device/ipad.png', 'Google Chrome 34.0.1847.116', 'iPad iOS 3.2'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36'),
         array('img/16/browser/chrome.png', 'img/16/os/chromeos.png', 'Google Chrome 29.0.1547.57', 'Google Chrome OS'),
     ),
@@ -1649,10 +1645,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (iPhone; CPU iPhone OS 712 like Mac OS X) AppleWebKit/537.51.2 (KHTML like Gecko) Mobile/11D257 FBAN/FBIOS;FBAV/14.0.0.25.26;FBBV/4017285;FBDV/iPhone61;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/Strata;FBID/phone;FBLC/enUS;FBOP/5'),
         array('img/16/browser/kirix-strata.png', 'img/16/device/iphone.png', 'Kirix Strata ', 'iPhone iOS 712'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/31.0.1650.63 Safari/537.36'),
-        array('img/16/browser/chrome.png', 'img/16/os/win-5.png', 'Google Chrome 31.0.1650.63', 'Windows 8 x64'),
     ),
     array(
         array('Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; LEGALBROWSER)'),
