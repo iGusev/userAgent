@@ -17,7 +17,8 @@ class UserAgent
         'Amigo',
         'IEMobile',
         'Playstation4',
-        'ICEBrowser'
+        'ICEBrowser',
+        'Bolt'
     ];
 
     protected static $osDetectorsList = [
@@ -201,7 +202,6 @@ class UserAgent
         'Blackbird',
         'BlackHawk',
         'Blazer',
-        'Bolt',
         'BonEcho',
         'BrowseX',
         'Browzar',
@@ -533,11 +533,6 @@ class UserAgent
             'link' => 'http://en.wikipedia.org/wiki/Blazer_(web_browser)',
             'title' => '{%Blazer%}',
             'code' => 'blazer',
-        ),
-        'bolt' => array(
-            'link' => 'http://www.boltbrowser.com/',
-            'title' => '{%Bolt%}',
-            'code' => 'bolt',
         ),
         'bonecho' => array(
             'link' => 'http://www.mozilla.org/projects/minefield/',
