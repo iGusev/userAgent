@@ -18,7 +18,8 @@ class UserAgent
         'IEMobile',
         'Playstation4',
         'ICEBrowser',
-        'Bolt'
+        'Bolt',
+        'Abolimba'
     ];
 
     protected static $osDetectorsList = [
@@ -184,7 +185,6 @@ class UserAgent
 
     private static $browserRegEx = array(
         '2345chrome',
-        'Abolimba',
         'Acoo\ Browser',
         'ANTFresco',
         'Alienforce',
@@ -423,11 +423,6 @@ class UserAgent
             'link' => 'http://chrome.2345.com/',
             'title' => '{%2345Chrome%}',
             'code' => '2345chrome',
-        ),
-        'abolimba' => array(
-            'link' => 'http://www.aborange.de/products/freeware/abolimba-multibrowser.php',
-            'title' => 'Abolimba',
-            'code' => 'abolimba',
         ),
         'acoo browser' => array(
             'link' => 'http://www.acoobrowser.com/',

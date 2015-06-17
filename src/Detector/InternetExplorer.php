@@ -8,7 +8,7 @@ class InternetExplorer extends AbstractBrowserDetector
     protected static $link = 'http://www.microsoft.com/windows/products/winfamily/ie/default.mspx';
     protected static $name = 'Internet Explorer';
     protected static $regEx = '/MSIE|Trident/i';
-    protected static $excludedRegEx = '/IEMobile|2345Explorer/i';
+    protected static $excludedRegEx = '/IEMobile|2345Explorer|Abolimba/i';
 
 
     public static function detectVersion($userAgentString)
