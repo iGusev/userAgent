@@ -1179,14 +1179,6 @@ $testList = array(
         array('img/16/browser/galaxy.png', 'img/16/os/mac-3.png', 'Galaxy 1.0', 'Mac OS X 10.5.6'),
     ),
     array(
-        array('Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.3.4628 Chrome/7.0.517.450 Safari/534.7'),
-        array('img/16/browser/flock.png', 'img/16/os/mac-3.png', 'Flock 3.5.3.4628', 'Mac OS X 10.6.6'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7'),
-        array('img/16/browser/flock.png', 'img/16/os/win-4.png', 'Flock 3.5.2.4599', 'Windows 7'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0) Treco/20110515 Fireweb Navigator/2.4'),
         array('img/16/browser/firewebnavigator.png', 'img/16/os/win-2.png', 'Fireweb Navigator 2.4', 'Windows XP'),
     ),
