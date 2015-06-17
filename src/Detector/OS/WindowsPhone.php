@@ -6,7 +6,7 @@ class WindowsPhone extends AbstractOSDetector
 {
     protected static $link = 'http://www.windowsphone.com/';
     protected static $name = 'Windows Phone';
-    protected static $regEx = '/Windows Phone|WPDesktop|ZuneWP7|WP7/i';
+    protected static $regEx = '/Windows Phone|ZuneWP7|WP7/i';
     protected static $isMobile = true;
 
     public static function detectVersion($userAgentString)

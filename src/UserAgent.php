@@ -28,8 +28,8 @@ class UserAgent
     ];
 
     protected static $osDetectorsList = [
-        'OS\\Windows',
         'OS\\WindowsPhone',
+        'OS\\Windows',
         'OS\\MacOS',
         'OS\\Playstation',
         'OS\\CentOS',
