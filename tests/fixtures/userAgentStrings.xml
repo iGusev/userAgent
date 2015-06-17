@@ -749,5 +749,41 @@
                 ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)
             </field>
         </string>
+        <string>
+            <field name="browser">Bolt</field>
+            <field name="browser_version">2.340</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.340) AppleWebKit/530+ (KHTML, like Gecko) Version/4.0 Safari/530.17 UNTRUSTED/1.0 3gpp-gba
+            </field>
+        </string>
+        <string>
+            <field name="browser">Bolt</field>
+            <field name="browser_version">0.862</field>
+            <field name="os">CentOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; 78; CentOS; US-en) AppleWebKit/527+ (KHTML, like Gecko) Bolt/0.862 Version/3.0 Safari/523.15
+            </field>
+        </string>
+        <string>
+            <field name="browser">Bolt</field>
+            <field name="browser_version">2.514</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.514) AppleWebKit/534.6 (KHTML, like Gecko) Version/5.0 Safari/534.6.3
+            </field>
+        </string>
     </strings>
 </document>

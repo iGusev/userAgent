@@ -1415,10 +1415,6 @@ $testList = array(
         array('img/16/browser/firefoxdevpre.png', 'img/16/os/debian.png', 'BonEcho 2.0b2', 'Debian GNU/Linux'),
     ),
     array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; BOLT/2.340) AppleWebKit/530+ (KHTML, like Gecko) Version/4.0 Safari/530.17 UNTRUSTED/1.0 3gpp-gba'),
-        array('img/16/browser/bolt.png', 'img/16/os/win-2.png', 'Bolt 2.340', 'Windows XP'),
-    ),
-    array(
         array('Mozilla/4.0 (compatible; MSIE 6.0; Windows 95; PalmSource; Blazer 3.0) 16; 160x160'),
         array('img/16/browser/blazer.png', 'img/16/device/palm.png', 'Blazer 3.0', 'Palm'),
     ),
