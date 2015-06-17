@@ -1487,10 +1487,6 @@ $testList = array(
         array('img/16/browser/acoobrowser.png', 'img/16/os/win-3.png', 'Acoo Browser 1.98.744', 'Windows Vista'),
     ),
     array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; http://www.Abolimba.de; .NET CLR 1.1.4322)'),
-        array('img/16/browser/abolimba.png', 'img/16/os/win-2.png', 'Abolimba', 'Windows XP'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows NT 6.2; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1 Alienforce/9.0.1'),
         array('img/16/browser/alienforce.png', 'img/16/os/win-5.png', 'Alienforce 9.0.1', 'Windows 8 x64'),
     ),
