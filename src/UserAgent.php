@@ -21,6 +21,7 @@ class UserAgent
         'Bolt',
         'Abolimba',
         'Flock',
+        'ABrowse',
     ];
 
     protected static $osDetectorsList = [
@@ -1629,11 +1630,6 @@ class UserAgent
             'link' => 'http://www.zipzaphome.com/',
             'title' => '{%ZipZap%}',
             'code' => 'zipzap',
-        ),
-        'abrowse' => array(
-            'link' => 'http://abrowse.sourceforge.net/',
-            'title' => 'ABrowse {%Browser%}',
-            'code' => 'abrowse',
         ),
         'firefox' => array(
             'link' => 'http://www.mozilla.org/',

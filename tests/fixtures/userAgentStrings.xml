@@ -881,5 +881,53 @@
                 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Flock/3.0.0.3737 Chrome/4.1.249.1071 Safari/532.5
             </field>
         </string>
+        <string>
+            <field name="browser">Flock</field>
+            <field name="browser_version">3.5.2.4599</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.2.4599 Chrome/7.0.517.442 Safari/534.7
+            </field>
+        </string>
+        <string>
+            <field name="browser">Flock</field>
+            <field name="browser_version">3.5.0.4568</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">10.6.5</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Flock/3.5.0.4568 Chrome/7.0.517.440 Safari/534.7
+            </field>
+        </string>
+        <string>
+            <field name="browser">Flock</field>
+            <field name="browser_version">2.5.6</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">10.4</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US; rv:1.9.0.16) Gecko/2010010314 Firefox/3.0.16 Flock/2.5.6
+            </field>
+        </string>
+        <string>
+            <field name="browser">ABrowse</field>
+            <field name="browser_version">0.4</field>
+            <field name="os">unknown</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)
+            </field>
+        </string>
     </strings>
 </document>
