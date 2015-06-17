@@ -35,7 +35,7 @@ class MacOS extends AbstractOSDetector
     {
         $version = 'unknown';
 
-        if (preg_match('/Mac OS [X]? ([._0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
+        if (preg_match('/Mac OS [X]? ([._0-9]+)/i', $userAgentString, $regmatch)) {
             $version = str_replace('_', '.', $regmatch[1]);
         }
 
