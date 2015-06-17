@@ -1875,10 +1875,6 @@ $testList = array(
         array('img/16/browser/mozilla.png', 'img/16/os/lindowsos.png', 'Mozilla Compatible', 'Linspire'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; Mac OSX; it; rv:1.9.0.7) Gecko/2009030422 Firefox/3.0.7'),
-        array('img/16/browser/firefox.png', 'img/16/os/mac-2.png', 'Firefox 3.0.7', 'Mac OS X'),
-    ),
-    array(
         array('MobileSafari/9537.53 CFNetwork/672.1.13 Darwin/13.1.0'),
         array('img/16/browser/safari.png', 'img/16/os/mac-1.png', 'Mobile Safari', 'Mac OS Darwin'),
     ),
