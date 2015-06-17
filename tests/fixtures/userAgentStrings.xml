@@ -929,5 +929,17 @@
                 Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)
             </field>
         </string>
+        <string>
+            <field name="browser">Vivaldi</field>
+            <field name="browser_version">1.0.94.2</field>
+            <field name="os">Windows</field>
+            <field name="os_version">10</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.94.2 Safari/537.36
+            </field>
+        </string>
     </strings>
 </document>

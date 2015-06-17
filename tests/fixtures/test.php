@@ -263,10 +263,6 @@ $testList = array(
         array('img/16/browser/mxnitro.png', 'img/16/os/win-2.png', 'MxNitro 1.0.1.600', 'Windows XP'),
     ),
     array(
-        array('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.94.2 Safari/537.36'),
-        array('img/16/browser/vivaldi.png', 'img/16/os/win-5.png', 'Vivaldi 1.0.94.2', 'Windows 10 x64'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20100121 Firefox/3.5.6 Wyzo/3.5.6.1'),
         array('img/16/browser/wyzo.png', 'img/16/os/win-4.png', 'Wyzo 3.5.6.1', 'Windows 7'),
     ),
