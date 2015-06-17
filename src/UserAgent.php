@@ -16,7 +16,8 @@ class UserAgent
         'InternetExplorer',
         'Amigo',
         'IEMobile',
-        'Playstation4'
+        'Playstation4',
+        'ICEBrowser'
     ];
 
     protected static $osDetectorsList = [

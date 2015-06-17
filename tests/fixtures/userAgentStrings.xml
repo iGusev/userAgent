@@ -725,5 +725,29 @@
                 Mozilla/5.0 (Java 1.6.0_01; Windows XP 5.1 x86; en) ICEbrowser/v6_1_2
             </field>
         </string>
+        <string>
+            <field name="browser">ICEBrowser</field>
+            <field name="browser_version">5.05</field>
+            <field name="os">Windows</field>
+            <field name="os_version">2000</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)
+            </field>
+        </string>
+        <string>
+            <field name="browser">ICEBrowser</field>
+            <field name="browser_version">5.4.3</field>
+            <field name="os">Windows</field>
+            <field name="os_version">XP</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                ICE Browser/v5_4_3 (Java 1.4.2; Windows XP 5.1 x86)
+            </field>
+        </string>
     </strings>
 </document>
