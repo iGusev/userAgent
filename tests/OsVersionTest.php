@@ -11,7 +11,7 @@ class OsVersionTest extends BaseTest
     /**
      * @dataProvider userAgentProvider
      */
-    public function testBrowser(UserAgentString $userAgentString)
+    public function testOsVersion(UserAgentString $userAgentString)
     {
         $userAgent = new UserAgent($userAgentString->getString());
         $this->assertEquals($userAgentString->getosVersion(), $userAgent->getOsVersion());

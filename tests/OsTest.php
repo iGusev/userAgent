@@ -11,7 +11,7 @@ class OsTest extends BaseTest
     /**
      * @dataProvider userAgentProvider
      */
-    public function testBrowser(UserAgentString $userAgentString)
+    public function testOs(UserAgentString $userAgentString)
     {
         $userAgent = new UserAgent($userAgentString->getString());
         $this->assertEquals($userAgentString->getOs(), $userAgent->getOs());
