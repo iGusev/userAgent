@@ -1064,5 +1064,17 @@
                 Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.0.1) Gecko/20030111 Chimera/0.6
             </field>
         </string>
+        <string>
+            <field name="browser">Atomic Web Browser</field>
+            <field name="browser_version">7.0.1</field>
+            <field name="os">Mac OS Darwin</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                AtomicBrowser/7.0.1 CFNetwork/672.0.8 Darwin/14.0.0
+            </field>
+        </string>
     </strings>
 </document>
