@@ -8,7 +8,7 @@ class MacOS extends AbstractOSDetector
 {
     protected static $link = 'http://www.apple.com/macosx/';
     protected static $name = 'Mac OS X';
-    protected static $regEx = '/Mac|Darwin/i';
+    protected static $regEx = '/Mac OS ?X/i';
 
 
     public static function detect(UserAgent $userAgent)

@@ -32,6 +32,7 @@ class UserAgent
         'OS\\WindowsPhone',
         'OS\\Windows',
         'OS\\MacOS',
+        'OS\\MacOSDarwin',
         'OS\\Playstation',
         'OS\\CentOS',
     ];
