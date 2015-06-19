@@ -1367,10 +1367,6 @@ $testList = array(
         array('img/16/browser/chromeplus.png', 'img/16/os/win-2.png', 'ChromePlus 4.0.222.3', 'Windows XP'),
     ),
     array(
-        array('Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US; rv:1.0.1) Gecko/20021111 Chimera/0.6'),
-        array('img/16/browser/null.png', 'img/16/os/mac-3.png', 'Chimera 0.6', 'Mac OS X'),
-    ),
-    array(
         array('Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Cheshire/1.0.UNOFFICIAL'),
         array('img/16/browser/aol.png', 'img/16/os/mac-3.png', 'Cheshire 1.0.UNOFFICIAL', 'Mac OS X'),
     ),

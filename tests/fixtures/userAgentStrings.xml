@@ -1040,5 +1040,29 @@
                 Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1) Gecko/20090612 Firefox/3.5
             </field>
         </string>
+        <string>
+            <field name="browser">Chimera</field>
+            <field name="browser_version">0.6</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US; rv:1.0.1) Gecko/20021111 Chimera/0.6
+            </field>
+        </string>
+        <string>
+            <field name="browser">Chimera</field>
+            <field name="browser_version">0.6</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.0.1) Gecko/20030111 Chimera/0.6
+            </field>
+        </string>
     </strings>
 </document>

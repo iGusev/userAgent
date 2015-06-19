@@ -24,7 +24,8 @@ class UserAgent
         'Abolimba',
         'Flock',
         'ABrowse',
-        'Vivaldi'
+        'Vivaldi',
+        'Chimera'
     ];
 
     protected static $osDetectorsList = [
@@ -215,7 +216,6 @@ class UserAgent
         'Cayman\ Browser',
         'Charon',
         'Cheshire',
-        'Chimera',
         'chromeframe',
         'ChromePlus',
         'curl',
@@ -571,11 +571,6 @@ class UserAgent
             'link' => 'http://downloads.channel.aol.com/browser',
             'title' => '{%Cheshire%}',
             'code' => 'aol',
-        ),
-        'chimera' => array(
-            'link' => 'http://www.chimera.org/',
-            'title' => '{%Chimera%}',
-            'code' => 'null',
         ),
         'chromeframe' => array(
             'link' => 'http://code.google.com/chrome/chromeframe/',
