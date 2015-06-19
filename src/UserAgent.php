@@ -25,7 +25,8 @@ class UserAgent
         'Flock',
         'ABrowse',
         'Vivaldi',
-        'Chimera'
+        'Chimera',
+        'AtomicBrowser'
     ];
 
     protected static $osDetectorsList = [
@@ -200,7 +201,6 @@ class UserAgent
         'AmigaVoyager',
         'AOL',
         'Arora',
-        'AtomicBrowser',
         'BarcaPro',
         'Barca',
         'Beamrise',
@@ -476,11 +476,6 @@ class UserAgent
             'link' => 'http://code.google.com/p/arora/',
             'title' => '{%Arora%}',
             'code' => 'arora',
-        ),
-        'atomicbrowser' => array(
-            'link' => 'http://www.atomicwebbrowser.com/',
-            'title' => '{%AtomicBrowser%}',
-            'code' => 'atomicwebbrowser',
         ),
         'barcapro' => array(
             'link' => 'http://www.pocosystems.com/home/index.php?option=content&task=category&sectionid=2&id=9&Itemid=27',
