@@ -2002,5 +2002,29 @@
                 Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.14
             </field>
         </string>
+        <string>
+            <field name="browser">Firefox</field>
+            <field name="version">3.18</field>
+            <field name="os">Red Hat</field>
+            <field name="os_version">5.4</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.18) Gecko/2010020406 Red Hat/3.0.18-1.el5_4 Firefox/3.18 Wget/1.9+cvs-stable (Red Hat modified)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Firefox</field>
+            <field name="version">3.6.20</field>
+            <field name="os">Red Hat</field>
+            <field name="os_version">5</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.20) Gecko/20110804 Red Hat/3.6-2.el5 Firefox/3.6.20
+            </field>
+        </string>
     </strings>
 </document>

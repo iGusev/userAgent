@@ -214,16 +214,6 @@ abstract class BaseDetector
             }
             $code = "pclinuxos";
             // @codeCoverageIgnoreEnd
-        } elseif (preg_match('/Red\ Hat/i', $userAgentString)
-            || preg_match('/RedHat/i', $userAgentString)
-        ) {
-            $link = "http://www.redhat.com/";
-            $title['osName'] = "Red Hat";
-            if (preg_match('/.el([._0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                $title['osName'] .= " Enterprise Linux " . str_replace("_", ".", $regmatch[1]);
-            }
-            $code = "red-hat";
-            // @codeCoverageIgnoreStart
         } elseif (preg_match('/Rosa/i', $userAgentString)) {
             $link = "http://www.rosalab.com/";
             $title['osName'] = "Rosa Linux";
