@@ -34,6 +34,7 @@ class UserAgent
         'OS\\Windows',
         'OS\\MacOS',
         'OS\\MacOSDarwin',
+        'OS\\Macintosh',
         'OS\\Playstation',
         'OS\\CentOS',
     ];
