@@ -10,27 +10,6 @@ class MacOS extends AbstractOSDetector
     protected static $name = 'Mac OS X';
     protected static $regEx = '/Mac OS ?X/i';
 
-
-    public static function detect(UserAgent $userAgent)
-    {
-        $userAgentString = $userAgent->getUserAgentString();
-        if (preg_match(static::$regEx, $userAgentString)) {
-            if (preg_match('/Darwin/i', $userAgentString)) {
-                static::$name = "Mac OS Darwin";
-            } elseif (!preg_match('/(Mac OS ?X)/i', $userAgentString)) {
-                static::$name = "Macintosh";
-            }
-
-            $userAgent->setOs(static::$name);
-            $userAgent->setOsVersion(self::detectVersion($userAgentString));
-
-            return true;
-        }
-
-
-        return false;
-    }
-
     public static function detectVersion($userAgentString)
     {
         $version = 'unknown';
