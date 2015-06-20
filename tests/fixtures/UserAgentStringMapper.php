@@ -2,6 +2,8 @@
 
 namespace userAgent\userAgent\Tests\Fixtures;
 
+use Symfony\Component\Yaml\Yaml;
+
 class UserAgentStringMapper
 {
     /**
@@ -10,19 +12,18 @@ class UserAgentStringMapper
     public static function map()
     {
         $collection = array();
-        $xml = new \SimpleXMLElement(file_get_contents('tests/fixtures/userAgentStrings.xml'));
-        foreach ($xml->strings->string as $string) {
-            $string = $string->field;
+        $yml = Yaml::parse(file_get_contents('tests/fixtures/userAgentStrings.yml'));
+
+        foreach ($yml as $fixture) {
             $userAgentString = new UserAgentString();
-            $userAgentString->setBrowser((string) $string[0]);
-            $userAgentString->setBrowserVersion((string) $string[1]);
-            $userAgentString->setOs((string) $string[2]);
-            $userAgentString->setOsVersion((string) $string[3]);
-            $userAgentString->setDevice((string) $string[4]);
-            $userAgentString->setDeviceVersion((string) $string[5]);
-            $is_mobile = (string) $string[6];
-            $is_mobile === 'true' ? $userAgentString->setIsMobile(true) : $userAgentString->setIsMobile(false);
-            $userAgentString->setString(str_replace(array(PHP_EOL, '  '), ' ', (string) $string[7]));
+            $userAgentString->setString($fixture['userAgent']);
+            $userAgentString->setBrowser($fixture['browser']['name']);
+            $userAgentString->setBrowserVersion($fixture['browser']['version']);
+            $userAgentString->setOs($fixture['os']['name']);
+            $userAgentString->setOsVersion($fixture['os']['version']);
+            $userAgentString->setDevice($fixture['device']['name']);
+            $userAgentString->setDeviceVersion($fixture['device']['Version']);
+            $userAgentString->setIsMobile($fixture['isMobile']);
             $collection[] = $userAgentString;
         }
 
