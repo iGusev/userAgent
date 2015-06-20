@@ -10,12 +10,6 @@ class MacOSDarwin extends AbstractOSDetector {
 
     public static function detectVersion($userAgentString)
     {
-        $version = 'unknown';
-
-        if (preg_match('/Mac OS [X]? ([._0-9]+)/i', $userAgentString, $regmatch)) {
-            $version = str_replace('_', '.', $regmatch[1]);
-        }
-
-        return $version;
+        return 'unknown';
     }
 }

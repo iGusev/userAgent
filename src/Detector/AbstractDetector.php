@@ -2,8 +2,6 @@
 namespace userAgent\userAgent\Detector;
 
 
-use userAgent\userAgent\UserAgent;
-
 abstract class AbstractDetector
 {
     protected static $link = '';
@@ -29,11 +27,6 @@ abstract class AbstractDetector
         }
 
         return false;
-    }
-
-    protected static function setParams(UserAgent $userAgent)
-    {
-
     }
 
     public static function detectVersion($userAgentString)
