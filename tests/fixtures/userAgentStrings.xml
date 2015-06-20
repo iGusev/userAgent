@@ -1531,5 +1531,29 @@
                 Opera/9.80 (iPad; Opera Mini/7.1.32694/27.1407; U; en) Presto/2.8.119 Version/11.10
             </field>
         </string>
+        <string>
+            <field name="browser">Google Chrome</field>
+            <field name="version">43.0.2357.51</field>
+            <field name="os">iOS</field>
+            <field name="os_version">8.1.2</field>
+            <field name="device">iPhone</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.51 Mobile/12B440 Safari/600.1.4
+            </field>
+        </string>
+        <string>
+            <field name="browser">Google Chrome</field>
+            <field name="version">19.0.1084.60</field>
+            <field name="os">iOS</field>
+            <field name="os_version">5.1.1</field>
+            <field name="device">iPhone</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3
+            </field>
+        </string>
     </strings>
 </document>

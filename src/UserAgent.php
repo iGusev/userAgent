@@ -33,7 +33,8 @@ class UserAgent
         'Konqueror',
         'ChromePlus',
         'CoolNovo',
-        'OperaMini'
+        'OperaMini',
+        'GoogleChromeMobile'
     ];
 
     protected static $osDetectorsList = [

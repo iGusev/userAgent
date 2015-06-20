@@ -1698,10 +1698,6 @@ $testList = array(
         array('img/16/browser/mozilla.png', 'img/16/device/playstation.png', 'Mozilla Compatible', 'PlayStation Portable'),
     ),
     array(
-        array('Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3'),
-        array('img/16/browser/chrome.png', 'img/16/device/iphone.png', 'Google CriOS 19.0.1084.60', 'iPhone iOS 5.1.1'),
-    ),
-    array(
         array('Mozilla/5.0 (compatible; Konqueror/2.2.2; Linux 2.4.18; X11; i686; AffiliateCashGen/1.0; en) LindowsOS (Lindows.com, Inc.)'),
         array('img/16/browser/konqueror.png', 'img/16/os/lindowsos.png', 'Konqueror 2.2.2', 'LindowsOS'),
     ),
