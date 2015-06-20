@@ -14,10 +14,6 @@ $testList = array(
         array('img/16/browser/kkman.png', 'img/16/os/win-2.png', 'KKman 2.0', 'Windows XP'),
     ),
     array(
-        array('Mozilla/5.0 (Windows NT 6.1; rv:24.0) Gecko/20140105 Firefox/24.0 K-Meleon/74.0'),
-        array('img/16/browser/kmeleon.png', 'img/16/os/win-4.png', 'K-Meleon 74.0', 'Windows 7'),
-    ),
-    array(
         array('Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0) LBBROWSER'),
         array('img/16/browser/lbbrowser.png', 'img/16/os/win-3.png', 'Liebao Browser', 'Windows Vista'),
     ),
@@ -964,10 +960,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2'),
         array('img/16/browser/kmeleon.png', 'img/16/os/win-1.png', 'KMLite 1.1.2', 'Windows 2000'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.21pre) Gecko K-Meleon/1.7.0'),
-        array('img/16/browser/kmeleon.png', 'img/16/os/win-2.png', 'K-Meleon 1.7.0', 'Windows XP'),
     ),
     array(
         array('Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)'),

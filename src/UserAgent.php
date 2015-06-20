@@ -27,7 +27,8 @@ class UserAgent
         'Vivaldi',
         'Chimera',
         'AtomicBrowser',
-        'GalaxyBrowser'
+        'GalaxyBrowser',
+        'KMeleon'
     ];
 
     protected static $osDetectorsList = [
@@ -286,7 +287,6 @@ class UserAgent
         'iRider',
         'InternetSurfboard',
         'Jasmine',
-        'K-Meleon',
         'K-Ninja',
         'Kapiko',
         'Kazehakase',
@@ -905,11 +905,6 @@ class UserAgent
             'link' => 'http://www.samsungmobile.com/',
             'title' => '{%Jasmine%}',
             'code' => 'samsung',
-        ),
-        'k-meleon' => array(
-            'link' => 'http://kmeleon.sourceforge.net/',
-            'title' => '{%K-Meleon%}',
-            'code' => 'kmeleon',
         ),
         'k-ninja' => array(
             'link' => 'http://k-ninja-samurai.en.softonic.com/',
