@@ -269,8 +269,7 @@
             <field name="device_version">unknown</field>
             <field name="is_mobile">false</field>
             <field name="string">
-                Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.74 Safari/537.36
-                MRCHROME
+                Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.74 Safari/537.36 MRCHROME
             </field>
         </string>
 
@@ -1302,6 +1301,18 @@
             <field name="is_mobile">false</field>
             <field name="string">
                 Galaxy/1.0 [en] (Mac OS X 10.5.6)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Google Chrome</field>
+            <field name="browser_version">18.0.1025.133</field>
+            <field name="os">Android</field>
+            <field name="os_version">4.0.4</field>
+            <field name="device">Samsung</field>
+            <field name="device_version">Galaxy Nexus</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
             </field>
         </string>
     </strings>

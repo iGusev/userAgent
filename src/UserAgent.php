@@ -38,6 +38,7 @@ class UserAgent
         'OS\\Macintosh',
         'OS\\Playstation',
         'OS\\CentOS',
+        'OS\\Android',
     ];
 
     /**
