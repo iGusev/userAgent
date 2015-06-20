@@ -313,14 +313,7 @@ abstract class BaseDetector
         $code = '';
         $version = '';
         // Opera's Useragent does not contains 'Linux'
-        if (preg_match('/AmigaOS/i', $userAgentString)) {
-            $link = "http://en.wikipedia.org/wiki/AmigaOS";
-            $title['osName'] = "AmigaOS";
-            if (preg_match('/AmigaOS\ ([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                $title['osVersion'] = $regmatch[1];
-            }
-            $code = "amigaos";
-        } elseif (preg_match('/BB10/i', $userAgentString)) {
+        if (preg_match('/BB10/i', $userAgentString)) {
             $link = "http://www.blackberry.com/";
             $title['osName'] = "BlackBerry OS 10";
             $code = "blackberry";

@@ -61,6 +61,7 @@ class UserAgent
         'OS\\SymbianOS',
         'OS\\IRIX',
         'OS\\MorphOS',
+        'OS\\AmigaOS',
     ];
 
     /**
