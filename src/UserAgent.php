@@ -36,7 +36,8 @@ class UserAgent
         'CoolNovo',
         'OperaMini',
         'GoogleChromeMobile',
-        'Elinks'
+        'Elinks',
+        'AOL'
     ];
 
     protected static $osDetectorsList = [
@@ -215,9 +216,7 @@ class UserAgent
         'Alienforce',
         'Amaya',
         'Amiga-AWeb',
-        'America\ Online\ Browser',
         'AmigaVoyager',
-        'AOL',
         'Arora',
         'BarcaPro',
         'Barca',
@@ -470,20 +469,10 @@ class UserAgent
             'title' => '{%myibrow%}',
             'code' => 'my-internet-browser',
         ),
-        'america online browser' => array(
-            'link' => 'http://downloads.channel.aol.com/browser',
-            'title' => 'America Online {%Browser%}',
-            'code' => 'aol',
-        ),
         'amigavoyager' => array(
             'link' => 'http://v3.vapor.com/voyager/',
             'title' => 'Amiga {%Voyager%}',
             'code' => 'amigavoyager',
-        ),
-        'aol' => array(
-            'link' => 'http://downloads.channel.aol.com/browser',
-            'title' => '{%AOL%}',
-            'code' => 'aol',
         ),
         'arora' => array(
             'link' => 'http://code.google.com/p/arora/',

@@ -1270,18 +1270,6 @@ $testList = array(
         array('img/16/browser/arora.png', 'img/16/os/linux.png', 'Arora 0.8.0', 'GNU/Linux'),
     ),
     array(
-        array('Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4343.27; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'),
-        array('img/16/browser/aol.png', 'img/16/os/win-2.png', 'AOL 9.7', 'Windows XP'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; AOL 7.0; Windows NT 5.0)'),
-        array('img/16/browser/aol.png', 'img/16/os/win-1.png', 'AOL 7.0', 'Windows 2000'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; AOL 7.0; Windows 98; Win 9x 4.90; .NET CLR 1.1.4322)'),
-        array('img/16/browser/aol.png', 'img/16/os/win-1.png', 'AOL 7.0', 'Windows Me'),
-    ),
-    array(
         array('Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'),
         array('img/16/browser/android-webkit.png', 'img/16/device/lg.png', 'Android Webkit 4.0', 'LG L160L'),
     ),
@@ -1296,10 +1284,6 @@ $testList = array(
     array(
         array('AmigaVoyager/3.2 (AmigaOS/MC680x0)'),
         array('img/16/browser/amigavoyager.png', 'img/16/os/amigaos.png', 'Amiga Voyager 3.2', 'AmigaOS'),
-    ),
-    array(
-        array('Mozilla/4.0 (compatible; MSIE 6.0; America Online Browser 1.1; rev1.5; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1)'),
-        array('img/16/browser/aol.png', 'img/16/os/win-2.png', 'America Online Browser 1.1', 'Windows XP'),
     ),
     array(
         array('amaya/10 libwww/5.4.0'),
@@ -1700,10 +1684,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) Gecko/20090619 Pardus/2009 Firefox/3.5'),
         array('img/16/browser/firefox.png', 'img/16/os/pardus.png', 'Firefox 3.5', 'Pardus'),
-    ),
-    array(
-        array('Mozilla/2.0 (Compatible; AOL-IWENG 3.0; Win16)'),
-        array('img/16/browser/aol.png', 'img/16/os/win-1.png', 'AOL ', 'Windows 3.11'),
     ),
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; de; rv:1.9.2.13) Gecko/20101221 IceCat/3.6.13 (like Firefox/3.6.13) (Zenwalk GNU Linux)'),
