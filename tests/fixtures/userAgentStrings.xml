@@ -1339,5 +1339,17 @@
                 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.21pre) Gecko K-Meleon/1.7.0
             </field>
         </string>
+        <string>
+            <field name="browser">K-Meleon Lite</field>
+            <field name="browser_version">1.1.2</field>
+            <field name="os">Windows</field>
+            <field name="os_version">2000</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2
+            </field>
+        </string>
     </strings>
 </document>

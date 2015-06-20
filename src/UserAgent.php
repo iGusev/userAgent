@@ -28,7 +28,8 @@ class UserAgent
         'Chimera',
         'AtomicBrowser',
         'GalaxyBrowser',
-        'KMeleon'
+        'KMeleon',
+        'KMLite',
     ];
 
     protected static $osDetectorsList = [
@@ -294,7 +295,6 @@ class UserAgent
         'KKman',
         'Kinza',
         'KMail',
-        'KMLite',
         'Konqueror',
         'Kylo',
         'LBrowser',
@@ -940,11 +940,6 @@ class UserAgent
             'link' => 'http://kontact.kde.org/kmail/',
             'title' => '{%KMail%}',
             'code' => 'kmail',
-        ),
-        'kmlite' => array(
-            'link' => 'http://en.wikipedia.org/wiki/K-Meleon',
-            'title' => '{%KMLite%}',
-            'code' => 'kmeleon',
         ),
         'konqueror' => array(
             'link' => 'http://konqueror.kde.org/',

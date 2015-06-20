@@ -958,10 +958,6 @@ $testList = array(
         array('img/16/browser/kninja.png', 'img/16/os/win-1.png', 'K-Ninja 2.1.3', 'Windows 98 SE'),
     ),
     array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2'),
-        array('img/16/browser/kmeleon.png', 'img/16/os/win-1.png', 'KMLite 1.1.2', 'Windows 2000'),
-    ),
-    array(
         array('Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; KKMAN3.2; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)'),
         array('img/16/browser/kkman.png', 'img/16/os/win-4.png', 'KKman 3.2', 'Windows 7'),
     ),
