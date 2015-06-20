@@ -994,10 +994,6 @@ $testList = array(
         array('img/16/browser/chrome.png', 'img/16/os/chromeos.png', 'Google Chrome 29.0.1547.57', 'Google Chrome OS'),
     ),
     array(
-        array('Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'),
-        array('img/16/browser/chrome.png', 'img/16/os/netbsd.png', 'Google Chrome 27.0.1453.116', 'NetBSD'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30'),
         array('img/16/browser/chrome.png', 'img/16/os/slackware.png', 'Google Chrome 12.0.742.100', 'Slackware'),
     ),

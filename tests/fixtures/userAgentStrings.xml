@@ -1615,5 +1615,17 @@
                 Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.9.2.13) Gecko/20110120 Firefox/3.6.13
             </field>
         </string>
+        <string>
+            <field name="browser">Google Chrome</field>
+            <field name="version">27.0.1453.116</field>
+            <field name="os">NetBSD</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+            </field>
+        </string>
     </strings>
 </document>

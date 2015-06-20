@@ -51,6 +51,7 @@ class UserAgent
         'OS\\iOS',
         'OS\\J2ME',
         'OS\\FreeBSD',
+        'OS\\NetBSD',
     ];
 
     /**
