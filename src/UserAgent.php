@@ -63,6 +63,7 @@ class UserAgent
         'OS\\IRIX',
         'OS\\MorphOS',
         'OS\\AmigaOS',
+        'OS\\Ubuntu',
     ];
 
     /**
