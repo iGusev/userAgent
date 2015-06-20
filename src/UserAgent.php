@@ -6,6 +6,7 @@ class UserAgent
 {
 
     protected static $browserDetectorsList = [
+        'Opera',
         'Firefox',
         'GoogleChrome',
         'IE114la',
@@ -1670,13 +1671,6 @@ class UserAgent
                 $link = "http://www.opera.com/support/kb/view/991/";
                 $title = $this->detect_browser_version(array('', 'Opera Next'));
                 $code = "opera-next";
-            } elseif (preg_match('/Opera/i', $userAgentString)) {
-                $link = "http://www.opera.com/";
-                $title = $this->detect_browser_version(array('', 'Opera'));
-                $code = "opera-1";
-                if (preg_match('/Version/i', $userAgentString)) {
-                    $code = "opera-2";
-                }
             } elseif (preg_match('/OPR/i', $userAgentString)) {
                 $link = "http://www.opera.com/";
                 if (preg_match('/(Edition Next)/i', $userAgentString)) {
