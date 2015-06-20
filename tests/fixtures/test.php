@@ -1070,10 +1070,6 @@ $testList = array(
         array('img/16/browser/firefox.png', 'img/16/os/red-hat.png', 'Firefox 1.0', 'Red Hat Enterprise Linux 4'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; Gentoo Linux x86_64; pl-PL) Gecko Firefox'),
-        array('img/16/browser/firefox.png', 'img/16/os/gentoo.png', 'Firefox ', 'Gentoo x64'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13'),
         array('img/16/browser/firebird.png', 'img/16/os/win-4.png', 'Firebird 3.6.13', 'Windows 7'),
     ),
@@ -1108,10 +1104,6 @@ $testList = array(
     array(
         array('Enigma Browser'),
         array('img/16/browser/enigmabrowser.png', 'img/16/browser/null.png', 'Enigma Browser ', 'Unknown'),
-    ),
-    array(
-        array('ELinks (0.11.3; Linux 2.6.23-gentoo-r6 i686; 128x48)'),
-        array('img/16/browser/elinks.png', 'img/16/os/gentoo.png', 'Elinks ', 'Gentoo'),
     ),
     array(
         array('Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533+ (KHTML, like Gecko) Element Browser 5.0'),
@@ -1676,10 +1668,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.12) Gecko/20100826 moonOS/3.0 (Makara) Firefox/3.5.2'),
         array('img/16/browser/firefox.png', 'img/16/os/moonos.png', 'Firefox 3.5.2', 'moonOS 3.0'),
-    ),
-    array(
-        array('Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.7.10) Gecko/20050919 (No IDN) Firefox/1.0.6'),
-        array('img/16/browser/firefox.png', 'img/16/os/openbsd.png', 'Firefox 1.0.6', 'OpenBSD'),
     ),
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) Gecko/20090619 Pardus/2009 Firefox/3.5'),
