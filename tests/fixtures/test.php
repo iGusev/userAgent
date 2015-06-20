@@ -1262,10 +1262,6 @@ $testList = array(
         array('img/16/browser/android-webkit.png', 'img/16/os/android.png', 'Android Webkit ', 'Android 2.3'),
     ),
     array(
-        array('AmigaVoyager/3.2 (AmigaOS/MC680x0)'),
-        array('img/16/browser/amigavoyager.png', 'img/16/os/amigaos.png', 'Amiga Voyager 3.2', 'AmigaOS'),
-    ),
-    array(
         array('amaya/10 libwww/5.4.0'),
         array('img/16/browser/amaya.png', 'img/16/browser/null.png', 'Amaya 10', 'Unknown'),
     ),
@@ -1648,10 +1644,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9b5) Gecko Foresight Linux Epiphany/2.22'),
         array('img/16/browser/epiphany.png', 'img/16/os/foresight.png', 'Epiphany 2.22', 'Foresight Linux'),
-    ),
-    array(
-        array('AmigaVoyager/3.4.4 (MorphOS/PPC native) user-agent'),
-        array('img/16/browser/amigavoyager.png', 'img/16/os/morphos.png', 'Amiga Voyager 3.4.4', 'MorphOS'),
     ),
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.12) Gecko/20100826 moonOS/3.0 (Makara) Firefox/3.5.2'),

@@ -1831,5 +1831,53 @@
                 Mozilla/4.76C-SGI [en] (X11; I; IRIX64 6.5 IP30)
             </field>
         </string>
+        <string>
+            <field name="browser">Voyager</field>
+            <field name="version">3.4.4</field>
+            <field name="os">MorphOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                AmigaVoyager/3.4.4 (MorphOS/PPC native) user-agent
+            </field>
+        </string>
+        <string>
+            <field name="browser">Voyager</field>
+            <field name="version">3.2</field>
+            <field name="os">AmigaOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                AmigaVoyager/3.2 (AmigaOS/MC680x0)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Voyager</field>
+            <field name="version">2.95</field>
+            <field name="os">AmigaOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Voyager</field>
+            <field name="version">2.95</field>
+            <field name="os">AmigaOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS; SV1)
+            </field>
+        </string>
     </strings>
 </document>
