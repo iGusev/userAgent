@@ -1730,10 +1730,6 @@ $testList = array(
         array('img/16/browser/android-webkit.png', 'img/16/device/huawei.png', 'Android Webkit ', 'Huawei P6'),
     ),
     array(
-        array('Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19'),
-        array('img/16/browser/chrome.png', 'img/16/device/samsung.png', 'Google Chrome 18.0.1025.133', 'Galaxy Nexus'),
-    ),
-    array(
         array('Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV) AppleWebKit/531.2+ (KHTML, like Gecko) WebBrowser/1.0 SmartTV Safari/531.2+'),
         array('img/16/browser/maplebrowser.png', 'img/16/device/samsung.png', 'Maple Browser 1.0', 'Samsung Smart TV'),
     ),
