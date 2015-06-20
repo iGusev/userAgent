@@ -282,22 +282,7 @@ abstract class BaseDetector
             $title['osName'] = "Zenwalk GNU Linux";
             $code = "zenwalk";
         } // Pulled out of order to help ensure better detection for above platforms
-        elseif (preg_match('/Ubuntu/i', $userAgentString)) {
-            $link = "http://www.ubuntu.com/";
-            $title['osName'] = "Ubuntu";
-            if (preg_match('/Ubuntu[\/|\ ]([.0-9]+[.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                $version .= " " . $regmatch[1];
-                if ($regmatch[1] < 10) {
-                    $code = "ubuntu-1";
-                }
-            }
-            if ($code == '') {
-                $code = "ubuntu-2";
-            }
-            if (strlen($version) > 1) {
-                $title['osName'] .= $version;
-            }
-        } else {
+        else {
             $link = "http://www.linux.org/";
             $title = "GNU/Linux";
             $code = "linux";
