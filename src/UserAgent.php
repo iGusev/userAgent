@@ -37,7 +37,8 @@ class UserAgent
         'OperaMini',
         'GoogleChromeMobile',
         'Elinks',
-        'AOL'
+        'AOL',
+        'Voyager'
     ];
 
     protected static $osDetectorsList = [
@@ -220,7 +221,6 @@ class UserAgent
         'Alienforce',
         'Amaya',
         'Amiga-AWeb',
-        'AmigaVoyager',
         'Arora',
         'BarcaPro',
         'Barca',
@@ -472,11 +472,6 @@ class UserAgent
             'link' => 'http://myinternetbrowser.webove-stranky.org/',
             'title' => '{%myibrow%}',
             'code' => 'my-internet-browser',
-        ),
-        'amigavoyager' => array(
-            'link' => 'http://v3.vapor.com/voyager/',
-            'title' => 'Amiga {%Voyager%}',
-            'code' => 'amigavoyager',
         ),
         'arora' => array(
             'link' => 'http://code.google.com/p/arora/',
