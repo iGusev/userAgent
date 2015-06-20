@@ -52,6 +52,7 @@ class UserAgent
         'OS\\J2ME',
         'OS\\FreeBSD',
         'OS\\NetBSD',
+        'OS\\Kanotix',
     ];
 
     /**
