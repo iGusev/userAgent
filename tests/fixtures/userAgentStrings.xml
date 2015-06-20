@@ -1783,5 +1783,29 @@
                 Mozilla/5.0 (X11; U; OpenBSD i386; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.359.0 Safari/533.3
             </field>
         </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="version">unknown</field>
+            <field name="os">SymbianOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (J2ME/MIDP; Opera Mini/SymbianOS/22.478; U; en) Presto/2.5.25 Version/10.54
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="version">7.2</field>
+            <field name="os">SymbianOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">Nokia</field>
+            <field name="device_version">S60</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (Series 60; Opera Mini/7.2/34.1425; U; en) Presto/2.8.119 Version/11.101.1010
+            </field>
+        </string>
     </strings>
 </document>
