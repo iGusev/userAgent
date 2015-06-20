@@ -340,10 +340,6 @@ abstract class BaseDetector
             $link = "http://www.vitanuova.com/inferno/";
             $title['osName'] = "Inferno";
             $code = "inferno";
-        } elseif (preg_match('/MorphOS/i', $userAgentString)) {
-            $link = "http://www.morphos-team.net/";
-            $title['osName'] = "MorphOS";
-            $code = "morphos";
         } elseif (preg_match('/RISC OS/i', $userAgentString)) {
             $link = "https://www.riscosopen.org/";
             $title['osName'] = "RISC OS";

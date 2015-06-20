@@ -60,6 +60,7 @@ class UserAgent
         'OS\\OpenBSD',
         'OS\\SymbianOS',
         'OS\\IRIX',
+        'OS\\MorphOS',
     ];
 
     /**
