@@ -404,11 +404,7 @@ abstract class BaseDetector
             $link = "http://en.wikipedia.org/wiki/WebOS";
             $title['osName'] = "Palm webOS";
             $code = "palm";
-        } elseif (preg_match('/J2ME\/MIDP/i', $userAgentString)) {
-            $link = "http://java.sun.com/javame/";
-            $title['osName'] = "J2ME/MIDP Device";
-            $code = "java";
-        } else {
+        }  else {
             $code = "null";
         }
 

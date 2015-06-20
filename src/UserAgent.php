@@ -46,6 +46,7 @@ class UserAgent
         'OS\\Android',
         'OS\\Kubuntu',
         'OS\\iOS',
+        'OS\\J2ME',
     ];
 
     /**
