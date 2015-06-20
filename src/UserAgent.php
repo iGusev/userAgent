@@ -38,7 +38,8 @@ class UserAgent
         'GoogleChromeMobile',
         'Elinks',
         'AOL',
-        'Voyager'
+        'Voyager',
+        'Chromium'
     ];
 
     protected static $osDetectorsList = [
