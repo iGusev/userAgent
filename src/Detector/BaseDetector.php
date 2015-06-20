@@ -136,23 +136,6 @@ abstract class BaseDetector
             $code = "knoppix";
             // @codeCoverageIgnoreEnd
             // @codeCoverageIgnoreStart
-        } elseif (preg_match('/Kubuntu/i', $userAgentString)) {
-            $link = "http://www.kubuntu.org/";
-            $title['osName'] = "Kubuntu";
-            if (preg_match('/Kubuntu[\/|\ ]([.0-9]+)/i', $userAgentString, $regmatch)) {
-                $version .= " " . $regmatch[1];
-                if ($regmatch[1] < 10) {
-                    $code = "kubuntu-1";
-                } else {
-                    $code = "kubuntu-2";
-                }
-            } else {
-                $code = "kubuntu-2";
-            }
-            if (strlen($version) > 1) {
-                $title .= $version;
-            }
-            // @codeCoverageIgnoreEnd
         } elseif (preg_match('/LindowsOS/i', $userAgentString)) {
             $link = "http://en.wikipedia.org/wiki/Lsongs";
             $title['osName'] = "LindowsOS";
