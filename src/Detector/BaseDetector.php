@@ -367,13 +367,6 @@ abstract class BaseDetector
             $link = "http://www.sun.com/software/solaris/";
             $title['osName'] = "Solaris";
             $code = "solaris";
-        } elseif (preg_match('/Symb(ian)?(OS)?/i', $userAgentString)) {
-            $link = "http://www.symbianos.org/";
-            $title = "SymbianOS";
-            if (preg_match('/Symb(ian)?(OS)?\/([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                $title['osName'] .= " " . $regmatch[3];
-            }
-            $code = "symbian";
         } elseif (preg_match('/Unix/i', $userAgentString)) {
             $link = "http://www.unix.org/";
             $title['osName'] = "Unix";

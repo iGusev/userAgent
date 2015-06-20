@@ -57,6 +57,7 @@ class UserAgent
         'OS\\Kanotix',
         'OS\\Gentoo',
         'OS\\OpenBSD',
+        'OS\\SymbianOS',
     ];
 
     /**
