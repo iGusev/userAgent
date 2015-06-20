@@ -32,7 +32,8 @@ class UserAgent
         'KMLite',
         'Konqueror',
         'ChromePlus',
-        'CoolNovo'
+        'CoolNovo',
+        'OperaMini'
     ];
 
     protected static $osDetectorsList = [
@@ -1650,10 +1651,6 @@ class UserAgent
                 } else {
                     $title = self::$browserList['unknown']['title'];
                 }
-            } elseif (preg_match('/Opera Mini/i', $userAgentString)) {
-                $link = "http://www.opera.com/mini/";
-                $title = $this->detect_browser_version(array('', 'Opera Mini'));
-                $code = "opera-2";
             } elseif (preg_match('/Opera Mobi/i', $userAgentString)) {
                 $link = "http://www.opera.com/mobile/";
                 $title = $this->detect_browser_version(array('', 'Opera Mobi'));

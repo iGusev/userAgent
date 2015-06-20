@@ -98,18 +98,6 @@ $testList = array(
         array('img/16/browser/opera-developer.png', 'img/16/os/mac-3.png', 'Opera Developer 28.0.1719.0', 'Mac OS X 10.10.1'),
     ),
     array(
-        array('Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.13400/34.2508; U; zh) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/os/java.png', 'Opera Mini 4.2.13400', 'J2ME/MIDP Device'),
-    ),
-    array(
-        array('Opera/9.80 (Android; Opera Mini/7.5.33361/35.6050; U; fa) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/os/android.png', 'Opera Mini 7.5.33361', 'Android'),
-    ),
-    array(
-        array('Opera/9.80 (Windows Phone; Opera Mini/7.6.8/35.4970; U; zh) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/os/windowsphone.png', 'Opera Mini 7.6.8', 'Windows Phone'),
-    ),
-    array(
         array('Opera/9.80 (Android 2.3.6; Linux; Opera Mobi/ADR-1306261228) Presto/2.11.355 Version/12.10'),
         array('img/16/browser/opera-2.png', 'img/16/os/android.png', 'Opera Mobile 12.10', 'Android 2.3.6'),
     ),
@@ -572,18 +560,6 @@ $testList = array(
     array(
         array('Opera/9.80 (J2ME/MIDP; Opera Mini/Nokia2730c-1/22.478; U; en) Presto/2.5.25 Version/10.54'),
         array('img/16/browser/opera-2.png', 'img/16/device/nokia.png', 'Opera Mini Nokia2730c', 'Nokia 2730'),
-    ),
-    array(
-        array('Opera/9.80 (iPhone; Opera Mini/7.1.32694/27.1407; U; en) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/device/iphone.png', 'Opera Mini 7.1.32694', 'iPhone'),
-    ),
-    array(
-        array('Opera/9.80 (iPad; Opera Mini/7.1.32694/27.1407; U; en) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/device/ipad.png', 'Opera Mini 7.1.32694', 'iPad'),
-    ),
-    array(
-        array('Opera/9.80 (Android; Opera Mini/7.0.29952/28.2075; U; es) Presto/2.8.119 Version/11.10'),
-        array('img/16/browser/opera-2.png', 'img/16/os/android.png', 'Opera Mini 7.0.29952', 'Android'),
     ),
     array(
         array('Opera/9.80 (J2ME/MIDP; Opera Mini/4.0.10031/22.453; U; en) Presto/2.5.25 Version/10.54'),

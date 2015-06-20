@@ -1423,9 +1423,113 @@
                 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20
             </field>
         </string>
-
-
-
-
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">4.2.13400</field>
+            <field name="os">J2ME</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.13400/34.2508; U; zh) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.5.33361</field>
+            <field name="os">Android</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (Android; Opera Mini/7.5.33361/35.6050; U; fa) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.6.8</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (Windows Phone; Opera Mini/7.6.8/35.4970; U; zh) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.6.8</field>
+            <field name="os">Windows Phone</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (Windows Phone; Opera Mini/7.6.8/35.4970; U; zh) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.1.32694</field>
+            <field name="os">iOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">iPhone</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (iPhone; Opera Mini/7.1.32694/27.1407; U; en) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">8.0.0.78129</field>
+            <field name="os">iOS</field>
+            <field name="os_version">7.1.1</field>
+            <field name="device">iPhone</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.0.78129 Mobile/11D201 Safari/9537.53
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">10.1.1.92212</field>
+            <field name="os">iOS</field>
+            <field name="os_version">8.1.2</field>
+            <field name="device">iPhone</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.1.1.92212 Mobile/12B440 Safari/9537.53
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.0.29952</field>
+            <field name="os">Android</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (Android; Opera Mini/7.0.29952/28.2075; U; es) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
+        <string>
+            <field name="browser">Opera Mini</field>
+            <field name="browser_version">7.1.32694</field>
+            <field name="os">iOS</field>
+            <field name="os_version">unknown</field>
+            <field name="device">iPad</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">true</field>
+            <field name="string">
+                Opera/9.80 (iPad; Opera Mini/7.1.32694/27.1407; U; en) Presto/2.8.119 Version/11.10
+            </field>
+        </string>
     </strings>
 </document>
