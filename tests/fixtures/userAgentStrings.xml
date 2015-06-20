@@ -1280,5 +1280,29 @@
                 Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)
             </field>
         </string>
+        <string>
+            <field name="browser">Internet Explorer</field>
+            <field name="browser_version">unknown</field>
+            <field name="os">Windows</field>
+            <field name="os_version">95</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/1.22 (compatible; MSIE; Windows 95)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Galaxy</field>
+            <field name="browser_version">1.0</field>
+            <field name="os">Mac OS X</field>
+            <field name="os_version">10.5.6</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Galaxy/1.0 [en] (Mac OS X 10.5.6)
+            </field>
+        </string>
     </strings>
 </document>

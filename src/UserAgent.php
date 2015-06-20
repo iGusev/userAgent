@@ -26,7 +26,8 @@ class UserAgent
         'ABrowse',
         'Vivaldi',
         'Chimera',
-        'AtomicBrowser'
+        'AtomicBrowser',
+        'GalaxyBrowser'
     ];
 
     protected static $osDetectorsList = [
@@ -1670,12 +1671,6 @@ class UserAgent
                 } else {
                     $title = self::$browserList['unknown']['title'];
                 }
-            } elseif (preg_match('/Galaxy/i', $userAgentString)
-                && !preg_match('/Chrome/i', $userAgentString)
-            ) {
-                $link = "http://www.traos.org/";
-                $title = $this->detect_browser_version(array('', 'Galaxy'));
-                $code = "galaxy";
             } elseif (preg_match('/Opera Mini/i', $userAgentString)) {
                 $link = "http://www.opera.com/mini/";
                 $title = $this->detect_browser_version(array('', 'Opera Mini'));

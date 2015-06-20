@@ -1098,10 +1098,6 @@ $testList = array(
         array('img/16/browser/galeon.png', 'img/16/os/linux.png', 'Galeon 2.0.7', 'GNU/Linux'),
     ),
     array(
-        array('Galaxy/1.0 [en] (Mac OS X 10.5.6)'),
-        array('img/16/browser/galaxy.png', 'img/16/os/mac-3.png', 'Galaxy 1.0', 'Mac OS X 10.5.6'),
-    ),
-    array(
         array('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:2.0) Treco/20110515 Fireweb Navigator/2.4'),
         array('img/16/browser/firewebnavigator.png', 'img/16/os/win-2.png', 'Fireweb Navigator 2.4', 'Windows XP'),
     ),
