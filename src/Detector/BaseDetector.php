@@ -121,10 +121,6 @@ abstract class BaseDetector
                 $title['osName'] .= " " . $regmatch[1];
             }
             $code = "foresight";
-        } elseif (preg_match('/Gentoo/i', $userAgentString)) {
-            $link = "http://www.gentoo.org/";
-            $title['osName'] = "Gentoo";
-            $code = "gentoo";
         } elseif (preg_match('/Knoppix/i', $userAgentString)) {
             $link = "http://www.knoppix.net/";
             $title['osName'] = "Knoppix";
