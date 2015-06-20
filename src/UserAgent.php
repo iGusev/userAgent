@@ -58,6 +58,7 @@ class UserAgent
         'OS\\Gentoo',
         'OS\\OpenBSD',
         'OS\\SymbianOS',
+        'OS\\IRIX',
     ];
 
     /**

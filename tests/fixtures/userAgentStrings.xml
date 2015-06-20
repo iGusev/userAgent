@@ -1807,5 +1807,29 @@
                 Opera/9.80 (Series 60; Opera Mini/7.2/34.1425; U; en) Presto/2.8.119 Version/11.101.1010
             </field>
         </string>
+        <string>
+            <field name="browser">unknown</field>
+            <field name="version">unknown</field>
+            <field name="os">IRIX</field>
+            <field name="os_version">5.3</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22)
+            </field>
+        </string>
+        <string>
+            <field name="browser">unknown</field>
+            <field name="version">unknown</field>
+            <field name="os">IRIX</field>
+            <field name="os_version">6.5</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/4.76C-SGI [en] (X11; I; IRIX64 6.5 IP30)
+            </field>
+        </string>
     </strings>
 </document>

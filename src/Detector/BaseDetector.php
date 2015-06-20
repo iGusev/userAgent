@@ -340,18 +340,6 @@ abstract class BaseDetector
             $link = "http://www.vitanuova.com/inferno/";
             $title['osName'] = "Inferno";
             $code = "inferno";
-        } elseif (preg_match('/IRIX/i', $userAgentString)) {
-            $link = "http://www.sgi.com/partners/?/technology/irix/";
-            $title['osName'] = "IRIX";
-            if (preg_match('/IRIX(64)?\ ([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                if ($regmatch[1]) {
-                    self::$isX64 = true;
-                }
-                if ($regmatch[2]) {
-                    $title['osName'] .= " " . $regmatch[2];
-                }
-            }
-            $code = "irix";
         } elseif (preg_match('/MorphOS/i', $userAgentString)) {
             $link = "http://www.morphos-team.net/";
             $title['osName'] = "MorphOS";

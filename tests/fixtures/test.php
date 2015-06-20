@@ -552,11 +552,7 @@ $testList = array(
     array(
         array('Opera/9.80 (Windows NT 5.1; Opera Mobi/49; U; en) Presto/2.4.18 Version/10.00'),
         array('img/16/browser/opera-2.png', 'img/16/os/win-2.png', 'Opera Mobile 10.00', 'Windows XP'),
-    ), /*
-			array(
-			array('Opera/9.80 (J2ME/MIDP; Opera Mini/SymbianOS/22.478; U; en) Presto/2.5.25 Version/10.54'),
-			array('img/16/browser/opera-2.png', 'img/16/os/symbian.png', 'Opera Mini SymbianOS', 'SymbianOS '),
-			),*/
+    ),
     array(
         array('Opera/9.80 (J2ME/MIDP; Opera Mini/Nokia2730c-1/22.478; U; en) Presto/2.5.25 Version/10.54'),
         array('img/16/browser/opera-2.png', 'img/16/device/nokia.png', 'Opera Mini Nokia2730c', 'Nokia 2730'),
@@ -764,14 +760,6 @@ $testList = array(
     array(
         array('Mozilla/4.8 [en] (X11; U; Linux 2.6.12-1.1372_FC3 i686; Nav)'),
         array('img/16/browser/mozilla.png', 'img/16/os/linux.png', 'Mozilla Compatible', 'GNU/Linux'),
-    ),
-    array(
-        array('Mozilla/4.04 [en] (X11; I; IRIX 5.3 IP22)'),
-        array('img/16/browser/mozilla.png', 'img/16/os/irix.png', 'Mozilla Compatible', 'IRIX 5.3'),
-    ),
-    array(
-        array('Mozilla/4.76C-SGI [en] (X11; I; IRIX64 6.5 IP30)'),
-        array('img/16/browser/mozilla.png', 'img/16/os/irix.png', 'Mozilla Compatible', 'IRIX x64 6.5'),
     ),
     array(
         array('Mozilla/4.8 [en] (X11; U; HP-UX B.11.00 9000/785)'),
