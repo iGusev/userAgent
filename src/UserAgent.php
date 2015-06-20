@@ -30,7 +30,8 @@ class UserAgent
         'GalaxyBrowser',
         'KMeleon',
         'KMLite',
-        'Konqueror'
+        'Konqueror',
+        'ChromePlus'
     ];
 
     protected static $osDetectorsList = [
@@ -225,7 +226,6 @@ class UserAgent
         'Charon',
         'Cheshire',
         'chromeframe',
-        'ChromePlus',
         'curl',
         'Iron',
         'Chromium',
@@ -576,11 +576,6 @@ class UserAgent
             'link' => 'http://code.google.com/chrome/chromeframe/',
             'title' => '{%chromeframe%}',
             'code' => 'chrome',
-        ),
-        'chromeplus' => array(
-            'link' => 'http://www.chromeplus.org/',
-            'title' => '{%ChromePlus%}',
-            'code' => 'chromeplus',
         ),
         'iron' => array(
             'link' => 'http://www.srware.net/',
