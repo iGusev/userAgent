@@ -35,7 +35,8 @@ class UserAgent
         'ChromePlus',
         'CoolNovo',
         'OperaMini',
-        'GoogleChromeMobile'
+        'GoogleChromeMobile',
+        'Elinks'
     ];
 
     protected static $osDetectorsList = [
@@ -714,11 +715,6 @@ class UserAgent
             'link' => 'http://edbrowse.sourceforge.net/',
             'title' => '{%Edbrowse%}',
             'code' => 'edbrowse',
-        ),
-        'elinks' => array(
-            'link' => 'http://elinks.or.cz/',
-            'title' => '{%Elinks%}',
-            'code' => 'elinks',
         ),
         'element browser' => array(
             'link' => 'http://www.elementsoftware.co.uk/software/elementbrowser/',

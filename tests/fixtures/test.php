@@ -1110,10 +1110,6 @@ $testList = array(
         array('img/16/browser/enigmabrowser.png', 'img/16/browser/null.png', 'Enigma Browser ', 'Unknown'),
     ),
     array(
-        array('ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)'),
-        array('img/16/browser/elinks.png', 'img/16/os/kanotix.png', 'Elinks 0.9.3', 'Kanotix'),
-    ),
-    array(
         array('ELinks (0.11.3; Linux 2.6.23-gentoo-r6 i686; 128x48)'),
         array('img/16/browser/elinks.png', 'img/16/os/gentoo.png', 'Elinks ', 'Gentoo'),
     ),

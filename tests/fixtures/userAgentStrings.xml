@@ -1627,5 +1627,29 @@
                 Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
             </field>
         </string>
+        <string>
+            <field name="browser">ELinks</field>
+            <field name="version">0.4.3</field>
+            <field name="os">NetBSD</field>
+            <field name="os_version">3.0.2</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x25)
+            </field>
+        </string>
+        <string>
+            <field name="browser">ELinks</field>
+            <field name="version">0.9.3</field>
+            <field name="os">Kanotix</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
+            </field>
+        </string>
     </strings>
 </document>
