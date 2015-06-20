@@ -31,7 +31,8 @@ class UserAgent
         'KMeleon',
         'KMLite',
         'Konqueror',
-        'ChromePlus'
+        'ChromePlus',
+        'CoolNovo'
     ];
 
     protected static $osDetectorsList = [
@@ -235,7 +236,6 @@ class UserAgent
         'CometBird',
         'Comodo_Dragon',
         'Conkeror',
-        'CoolNovo',
         'CoRom',
         'Crazy\ Browser',
         'CrMo',
@@ -616,11 +616,6 @@ class UserAgent
             'link' => 'http://www.conkeror.org/',
             'title' => '{%Conkeror%}',
             'code' => 'conkeror',
-        ),
-        'coolnovo' => array(
-            'link' => 'http://www.coolnovo.com/',
-            'title' => '{%CoolNovo%}',
-            'code' => 'coolnovo',
         ),
         'corom' => array(
             'link' => 'http://en.wikipedia.org/wiki/C%E1%BB%9D_R%C3%B4m%2B_(browser)',

@@ -1411,6 +1411,21 @@
                 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.28.3 (KHTML, like Gecko) Version/3.2.3 ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/525.28.3
             </field>
         </string>
+        <string>
+            <field name="browser">CoolNovo</field>
+            <field name="browser_version">2.0.9.20</field>
+            <field name="os">Windows</field>
+            <field name="os_version">7</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36 CoolNovo/2.0.9.20
+            </field>
+        </string>
+
+
+
 
     </strings>
 </document>
