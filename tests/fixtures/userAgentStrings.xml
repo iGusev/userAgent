@@ -1351,5 +1351,53 @@
                 Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.8.1.19) Gecko/20081217 KMLite/1.1.2
             </field>
         </string>
+        <string>
+            <field name="browser">Konqueror</field>
+            <field name="browser_version">4.4</field>
+            <field name="os">Kubuntu</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu
+            </field>
+        </string>
+        <string>
+            <field name="browser">Konqueror</field>
+            <field name="browser_version">4.4</field>
+            <field name="os">Kubuntu</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu
+            </field>
+        </string>
+        <string>
+            <field name="browser">Konqueror</field>
+            <field name="browser_version">3.4</field>
+            <field name="os">Kubuntu</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; Konqueror/3.4; Linux) KHTML/3.4.3 (like Gecko) (Kubuntu package 4:3.4.3-0ubuntu2)
+            </field>
+        </string>
+        <string>
+            <field name="browser">Konqueror</field>
+            <field name="browser_version">3.4</field>
+            <field name="os">Kubuntu</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (compatible; Konqueror/3.4; Linux) KHTML/3.4.3 (like Gecko) (Kubuntu package 4:3.4.3-0ubuntu1)
+            </field>
+        </string>
     </strings>
 </document>

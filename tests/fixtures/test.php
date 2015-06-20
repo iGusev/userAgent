@@ -930,24 +930,12 @@ $testList = array(
         array('img/16/browser/konqueror.png', 'img/16/os/archlinux.png', 'Konqueror 4.9', 'Arch Linux'),
     ),
     array(
-        array('Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu'),
-        array('img/16/browser/konqueror.png', 'img/16/os/kubuntu-2.png', 'Konqueror 4.4', 'Kubuntu'),
-    ),
-    array(
         array('Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0'),
         array('img/16/browser/konqueror.png', 'img/16/os/slackware.png', 'Konqueror 4.2', 'Slackware'),
     ),
     array(
         array('Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)'),
         array('img/16/browser/konqueror.png', 'img/16/os/dragonflybsd.png', 'Konqueror 4.1', 'DragonFly BSD'),
-    ),
-    array(
-        array('Mozilla/5.0 (compatible; Konqueror/3.4; Linux) KHTML/3.4.3 (like Gecko) (Kubuntu package 4:3.4.3-0ubuntu2)'),
-        array('img/16/browser/konqueror.png', 'img/16/os/kubuntu-2.png', 'Konqueror 3.4', 'Kubuntu'),
-    ),
-    array(
-        array('Mozilla/5.0 (compatible; Konqueror/3.4; Linux) KHTML/3.4.3 (like Gecko) (Kubuntu package 4:3.4.3-0ubuntu1)'),
-        array('img/16/browser/konqueror.png', 'img/16/os/kubuntu-2.png', 'Konqueror 3.4', 'Kubuntu'),
     ),
     array(
         array('Mozilla/5.0 (compatible; Konqueror/3.4; SunOS) KHTML/3.4.1 (like Gecko)'),
