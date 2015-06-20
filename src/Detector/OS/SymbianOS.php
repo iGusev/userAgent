@@ -15,7 +15,6 @@ class SymbianOS extends AbstractOSDetector
     public static function detectVersion($userAgentString)
     {
         if (preg_match(static::$regExVersion, $userAgentString, $regmatch)) {
-            var_dump($regmatch);
             return $regmatch[3];
         }
 
