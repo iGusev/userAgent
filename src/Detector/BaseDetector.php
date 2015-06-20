@@ -356,10 +356,6 @@ abstract class BaseDetector
             $link = "http://www.morphos-team.net/";
             $title['osName'] = "MorphOS";
             $code = "morphos";
-        }elseif (preg_match('/OpenBSD/i', $userAgentString)) {
-            $link = "http://www.openbsd.org/";
-            $title['osName'] = "OpenBSD";
-            $code = "openbsd";
         } elseif (preg_match('/RISC OS/i', $userAgentString)) {
             $link = "https://www.riscosopen.org/";
             $title['osName'] = "RISC OS";

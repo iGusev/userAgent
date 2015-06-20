@@ -56,6 +56,7 @@ class UserAgent
         'OS\\NetBSD',
         'OS\\Kanotix',
         'OS\\Gentoo',
+        'OS\\OpenBSD',
     ];
 
     /**
