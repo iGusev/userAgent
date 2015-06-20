@@ -574,24 +574,12 @@ $testList = array(
         array('img/16/browser/opera-2.png', 'img/16/os/win-2.png', 'Opera Mini ', 'Windows XP'),
     ),
     array(
-        array('Opera/9.99 (Windows NT 5.1; U; pl) Presto/9.9.9'),
-        array('img/16/browser/opera-1.png', 'img/16/os/win-2.png', 'Opera 9.99', 'Windows XP'),
-    ),
-    array(
         array('HTC_HD2_T8585 Opera/9.70 (Windows NT 5.1; U; de)'),
         array('img/16/browser/opera-1.png', 'img/16/device/htc.png', 'Opera 9.70', 'HTC HD2'),
     ),
     array(
         array('Opera/9.64 (X11; Linux i686; U; Linux Mint; it) Presto/2.1.1'),
         array('img/16/browser/opera-1.png', 'img/16/os/linuxmint.png', 'Opera 9.64', 'Linux Mint'),
-    ),
-    array(
-        array('Opera/9.64(Windows NT 5.1; U; en) Presto/2.1.1'),
-        array('img/16/browser/opera-1.png', 'img/16/os/win-2.png', 'Opera 9.64', 'Windows XP'),
-    ),
-    array(
-        array('Opera/9.63 (X11; FreeBSD 7.1-RELEASE i386; U; en) Presto/2.1.1'),
-        array('img/16/browser/opera-1.png', 'img/16/os/freebsd.png', 'Opera 9.63', 'FreeBSD'),
     ),
     array(
         array('Opera/9.30 (Nintendo Wii; U; ; 2071; Wii Shop Channel/1.0; en)'),

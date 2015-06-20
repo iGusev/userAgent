@@ -345,10 +345,6 @@ abstract class BaseDetector
             $link = "http://www.dragonflybsd.org/";
             $title['osName'] = "DragonFly BSD";
             $code = "dragonflybsd";
-        } elseif (preg_match('/FreeBSD/i', $userAgentString)) {
-            $link = "http://www.freebsd.org/";
-            $title['osName'] = "FreeBSD";
-            $code = "freebsd";
         } elseif (preg_match('/Inferno/i', $userAgentString)) {
             $link = "http://www.vitanuova.com/inferno/";
             $title['osName'] = "Inferno";

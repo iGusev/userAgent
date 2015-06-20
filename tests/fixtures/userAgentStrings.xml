@@ -1579,5 +1579,41 @@
                 Opera/9.64(Windows NT 5.1; U; en) Presto/2.1.1
             </field>
         </string>
+        <string>
+            <field name="browser">Opera</field>
+            <field name="version">9.63</field>
+            <field name="os">FreeBSD</field>
+            <field name="os_version">7.1</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Opera/9.63 (X11; FreeBSD 7.1-RELEASE i386; U; en) Presto/2.1.1
+            </field>
+        </string>
+        <string>
+            <field name="browser">Google Chrome</field>
+            <field name="version">34.0.1847.132</field>
+            <field name="os">FreeBSD</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.132 Safari/537.36
+            </field>
+        </string>
+        <string>
+            <field name="browser">Firefox</field>
+            <field name="version">3.6.13</field>
+            <field name="os">FreeBSD</field>
+            <field name="os_version">unknown</field>
+            <field name="device">unknown</field>
+            <field name="device_version">unknown</field>
+            <field name="is_mobile">false</field>
+            <field name="string">
+                Mozilla/5.0 (X11; U; FreeBSD amd64; en-US; rv:1.9.2.13) Gecko/20110120 Firefox/3.6.13
+            </field>
+        </string>
     </strings>
 </document>

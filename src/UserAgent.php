@@ -50,6 +50,7 @@ class UserAgent
         'OS\\Kubuntu',
         'OS\\iOS',
         'OS\\J2ME',
+        'OS\\FreeBSD',
     ];
 
     /**
