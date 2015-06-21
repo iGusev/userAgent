@@ -304,10 +304,6 @@ abstract class BaseDetector
             if (preg_match('/RISC OS ([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
                 $title['osName'] .= " " . $regmatch[1];
             }
-        } elseif (preg_match('/Solaris|SunOS/i', $userAgentString)) {
-            $link = "http://www.sun.com/software/solaris/";
-            $title['osName'] = "Solaris";
-            $code = "solaris";
         } elseif (preg_match('/Unix/i', $userAgentString)) {
             $link = "http://www.unix.org/";
             $title['osName'] = "Unix";
