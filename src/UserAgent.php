@@ -39,7 +39,8 @@ class UserAgent
         'Elinks',
         'AOL',
         'Voyager',
-        'Chromium'
+        'Chromium',
+        'Thunderbird'
     ];
 
     protected static $osDetectorsList = [
