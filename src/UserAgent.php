@@ -415,7 +415,6 @@ class UserAgent
         'Teleca',
         'TenFourFox',
         'TheWorld',
-        'Thunderbird',
         'Tizen',
         'Tjusig',
         'TencentTraveler',
@@ -1440,11 +1439,6 @@ class UserAgent
             'link' => 'http://www.ioage.com/',
             'title' => 'TheWorld Browser',
             'code' => 'theworld',
-        ),
-        'thunderbird' => array(
-            'link' => 'http://www.mozilla.com/thunderbird/',
-            'title' => '{%Thunderbird%}',
-            'code' => 'thunderbird',
         ),
         'tizen' => array(
             'link' => 'https://www.tizen.org/',
