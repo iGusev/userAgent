@@ -65,6 +65,7 @@ class UserAgent
         'OS\\AmigaOS',
         'OS\\Ubuntu',
         'OS\\RedHat',
+        'OS\\Slackware',
     ];
 
     /**

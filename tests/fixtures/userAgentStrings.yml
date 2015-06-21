@@ -1763,3 +1763,40 @@
     name: unknown
     deviceVersion: unknown
   isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+  browser:
+    name: Google Chrome
+    version: "12.0.742.100"
+  os:
+    name: Slackware
+    version: unknown
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.0.5) Gecko/2008121622 Slackware/2.6.27-PiP Firefox/3.0
+  browser:
+    name: Firefox
+    version: "3.0"
+  os:
+    name: Slackware
+    version: "2.6.27"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0
+  browser:
+    name: Konqueror
+    version: "4.2"
+  os:
+    name: Slackware
+    version: "13.0"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+  isMobile: false

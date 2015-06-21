@@ -225,11 +225,7 @@ abstract class BaseDetector
             $title['osName'] = "Sabayon Linux";
             $code = "sabayon";
             // @codeCoverageIgnoreEnd
-        } elseif (preg_match('/Slackware/i', $userAgentString)) {
-            $link = "http://www.slackware.com/";
-            $title['osName'] = "Slackware";
-            $code = "slackware";
-        } elseif (preg_match('/Suse/i', $userAgentString)) {
+        }elseif (preg_match('/Suse/i', $userAgentString)) {
             $link = "http://www.opensuse.org/";
             $title['osName'] = "openSUSE";
             $code = "suse";

@@ -882,10 +882,6 @@ $testList = array(
         array('img/16/browser/konqueror.png', 'img/16/os/archlinux.png', 'Konqueror 4.9', 'Arch Linux'),
     ),
     array(
-        array('Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0'),
-        array('img/16/browser/konqueror.png', 'img/16/os/slackware.png', 'Konqueror 4.2', 'Slackware'),
-    ),
-    array(
         array('Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)'),
         array('img/16/browser/konqueror.png', 'img/16/os/dragonflybsd.png', 'Konqueror 4.1', 'DragonFly BSD'),
     ),
@@ -982,10 +978,6 @@ $testList = array(
         array('img/16/browser/chrome.png', 'img/16/os/chromeos.png', 'Google Chrome 29.0.1547.57', 'Google Chrome OS'),
     ),
     array(
-        array('Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30'),
-        array('img/16/browser/chrome.png', 'img/16/os/slackware.png', 'Google Chrome 12.0.742.100', 'Slackware'),
-    ),
-    array(
         array('NokiaE66/GoBrowser/2.0.297'),
         array('img/16/browser/gobrowser.png', 'img/16/device/nokia.png', 'GO Browser 2.0.297', 'Nokia E66'),
     ),
@@ -1044,10 +1036,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0) Gecko/2008061600 SUSE/3.0-1.2 Firefox/3.0'),
         array('img/16/browser/firefox.png', 'img/16/os/suse.png', 'Firefox 3.0', 'openSUSE x64'),
-    ),
-    array(
-        array('Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.0.5) Gecko/2008121622 Slackware/2.6.27-PiP Firefox/3.0'),
-        array('img/16/browser/firefox.png', 'img/16/os/slackware.png', 'Firefox 3.0', 'Slackware'),
     ),
     array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.10) Gecko/20060410 Firefox/1.0.8 Mandriva/1.0.6-16.5.20060mdk (2006.0)'),

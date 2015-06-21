@@ -110,18 +110,6 @@
         <!--Mozilla/5.0 (Linux; Android 4.4.4; MI 4W Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MxBrowser/4.3.5.2000-->
         <!--</field>-->
         <!--</string>-->
-        <string>
-        <field name="browser">Chrome</field>
-        <field name="browser_version">39.0.2171.95</field>
-        <field name="os">Windows</field>
-        <field name="os_version">Server 2003</field>
-        <field name="device">unknown</field>
-        <field name="device_version">unknown</field>
-        <field name="is_mobile">false</field>
-        <field name="string">
-        Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        </field>
-        </string>
         <!--<string>-->
         <!--<field name="browser">Chrome Frame</field>-->
         <!--<field name="browser_version">30.0.1599.101</field>-->
