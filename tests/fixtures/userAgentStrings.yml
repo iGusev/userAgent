@@ -1799,4 +1799,16 @@
     name: unknown
     deviceVersion: unknown
   isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.12) Gecko/20100826 moonOS/3.0 (Makara) Firefox/3.5.2
+  browser:
+    name: Firefox
+    version: "3.5.2"
+  os:
+    name: moonOS
+    version: "3.0"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
   isMobile: false

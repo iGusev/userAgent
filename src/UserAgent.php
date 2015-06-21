@@ -66,6 +66,7 @@ class UserAgent
         'OS\\Ubuntu',
         'OS\\RedHat',
         'OS\\Slackware',
+        'OS\\moonOS',
     ];
 
     /**

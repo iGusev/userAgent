@@ -173,13 +173,6 @@ abstract class BaseDetector
             }
             // @codeCoverageIgnoreEnd
             $code = "mandriva";
-        } elseif (preg_match('/moonOS/i', $userAgentString)) {
-            $link = "http://www.moonos.org/";
-            $title['osName'] = "moonOS";
-            if (preg_match('/moonOS\/([.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
-                $title['osName'] .= " " . $regmatch[1];
-            }
-            $code = "moonos";
         } elseif (preg_match('/Nova/i', $userAgentString)) {
             $link = "http://www.nova.cu";
             $title['osName'] = "Nova";

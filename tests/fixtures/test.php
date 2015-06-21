@@ -1634,10 +1634,6 @@ $testList = array(
         array('img/16/browser/epiphany.png', 'img/16/os/foresight.png', 'Epiphany 2.22', 'Foresight Linux'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.12) Gecko/20100826 moonOS/3.0 (Makara) Firefox/3.5.2'),
-        array('img/16/browser/firefox.png', 'img/16/os/moonos.png', 'Firefox 3.5.2', 'moonOS 3.0'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1) Gecko/20090619 Pardus/2009 Firefox/3.5'),
         array('img/16/browser/firefox.png', 'img/16/os/pardus.png', 'Firefox 3.5', 'Pardus'),
     ),
