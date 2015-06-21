@@ -9,7 +9,7 @@ class Windows extends AbstractOSDetector
     protected static $link = 'http://www.microsoft.com/windows/';
     protected static $name = 'Windows';
     protected static $regEx = '/Windows|Win(NT|32|95|98|16)|ZuneWP7|WPDesktop/i';
-    protected static $excludedRegEx = '/Windows Phone|Ubuntu/i';
+    protected static $excludedRegEx = '/Windows Phone|Ubuntu|iPad/i';
     protected static $isMobile = false;
 
     protected static $versionsRegEx = [

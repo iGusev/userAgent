@@ -8,7 +8,7 @@ class MacOS extends AbstractOSDetector
     protected static $link = 'http://www.apple.com/macosx/';
     protected static $name = 'Mac OS X';
     protected static $regEx = '/Mac OS ?X/i';
-    protected static $excludedRegEx = '/iPhone/i';
+    protected static $excludedRegEx = '/iPhone|iPad/i';
 
     public static function detectVersion($userAgentString)
     {

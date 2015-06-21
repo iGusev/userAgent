@@ -14,8 +14,8 @@ class iOS extends AbstractOSDetector
     {
         $version = 'unknown';
 
-        if (preg_match('/CPU iPhone OS ([._0-9]+)/i', $userAgentString, $regmatch)) {
-            $version = str_replace('_', '.', $regmatch[1]);
+        if (preg_match('/CPU\ (iPhone\ )?OS\ ([._0-9]+)/i', $userAgentString, $regmatch)) {
+            $version = str_replace('_', '.', $regmatch[2]);
         }
 
         return $version;
