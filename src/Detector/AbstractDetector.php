@@ -34,7 +34,7 @@ abstract class AbstractDetector
         // Grab the browser version if its present
         $version = 'unknown';
         $start = substr(static::$regEx, 1, strlen(static::$regEx) - 3);
-        if (preg_match('/' . $start . '[\ ]?[\/|\:|\(]?([_.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
+        if (preg_match('/' . $start . '[\ ]?[\/|\:|\ \(]?([_.0-9a-zA-Z]+)/i', $userAgentString, $regmatch)) {
             if (count($regmatch) > 1) {
                 $version = str_replace('_', '.', $regmatch[1]);
             }
