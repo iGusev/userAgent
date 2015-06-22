@@ -286,28 +286,12 @@ $testList = array(
         array('img/16/browser/null.png', 'img/16/browser/null.png', 'curl 7.19.5', 'Unknown'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.9.1.11) Gecko/20100714 openSUSE/3.0.6 Thunderbird/3.0.6 ThunderBrowse/3.3.2'),
-        array('img/16/browser/thunderbird.png', 'img/16/os/suse.png', 'Thunderbird 3.0.6', 'openSUSE x64'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.10) Gecko/20100621 Fedora/3.0.5-1.fc13 Lightning/1.0b2pre Thunderbird/3.0.5'),
         array('img/16/browser/thunderbird.png', 'img/16/os/fedora.png', 'Thunderbird 3.0.5', 'Fedora 13 x64'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.4) Gecko/20070622 Thunderbird/2.0.0.4'),
-        array('img/16/browser/thunderbird.png', 'img/16/os/solaris.png', 'Thunderbird 2.0.0.4', 'Solaris'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20130620 Thunderbird/17.0.7'),
-        array('img/16/browser/thunderbird.png', 'img/16/os/win-5.png', 'Thunderbird 17.0.7', 'Windows 8 x64'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; Linux i686; rv:16.0) Gecko/20121011 Thunderbird/16.0.1'),
         array('img/16/browser/thunderbird.png', 'img/16/os/linux.png', 'Thunderbird 16.0.1', 'GNU/Linux'),
-    ),
-    array(
-        array('Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; fr-FR; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6'),
-        array('img/16/browser/thunderbird.png', 'img/16/os/mac-3.png', 'Thunderbird 1.0.6', 'Mac OS X Mach-O'),
     ),
     array(
         array('Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; (R1 1.6); .NET CLR 2.0.50727; TheWorld)'),
@@ -884,10 +868,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)'),
         array('img/16/browser/konqueror.png', 'img/16/os/dragonflybsd.png', 'Konqueror 4.1', 'DragonFly BSD'),
-    ),
-    array(
-        array('Mozilla/5.0 (compatible; Konqueror/3.4; SunOS) KHTML/3.4.1 (like Gecko)'),
-        array('img/16/browser/konqueror.png', 'img/16/os/solaris.png', 'Konqueror 3.4', 'Solaris'),
     ),
     array(
         array('Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8.1.4pre) Gecko/20070404 K-Ninja/2.1.3'),

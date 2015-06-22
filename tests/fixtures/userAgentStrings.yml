@@ -1811,4 +1811,63 @@
     name: unknown
     deviceVersion: unknown
   isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.9.1.11) Gecko/20100714 openSUSE/3.0.6 Thunderbird/3.0.6 ThunderBrowse/3.3.2
+  browser:
+    name: Thunderbird
+    version: "3.0.6"
+  os:
+    name: openSUSE
+    version: "3.0.6"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.8.1.4) Gecko/20070622 Thunderbird/2.0.0.4
+  browser:
+    name: Thunderbird
+    version: "2.0.0.4"
+  os:
+    name: Solaris
+    version: unknown
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20130620 Thunderbird/17.0.7
+  browser:
+    name: Thunderbird
+    version: "17.0.7"
+  os:
+    name: Windows
+    version: "8"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; fr-FR; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6
+  browser:
+    name: Thunderbird
+    version: "1.0.6"
+  os:
+    name: Mac OS X
+    version: unknown
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (compatible; Konqueror/3.4; SunOS) KHTML/3.4.1 (like Gecko)
+  browser:
+    name: Konqueror
+    version: "3.4"
+  os:
+    name: Solaris
+    version: unknown
+  device:
+    name: unknown
+    deviceVersion: unknown
   isMobile: false
