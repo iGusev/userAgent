@@ -218,11 +218,6 @@ abstract class BaseDetector
             $title['osName'] = "Sabayon Linux";
             $code = "sabayon";
             // @codeCoverageIgnoreEnd
-        }elseif (preg_match('/Suse/i', $userAgentString)) {
-            $link = "http://www.opensuse.org/";
-            $title['osName'] = "openSUSE";
-            $code = "suse";
-            // @codeCoverageIgnoreStart
         } elseif (preg_match('/VectorLinux/i', $userAgentString)) {
             $link = "http://www.vectorlinux.com/";
             $title['osName'] = "VectorLinux";
