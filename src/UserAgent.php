@@ -6,6 +6,7 @@ class UserAgent
 {
 
     protected static $browserDetectorsList = [
+        'Spartan',
         'Opera',
         'Firefox',
         'GoogleChrome',
@@ -1711,11 +1712,6 @@ class UserAgent
                 $link = "http://developer.android.com/reference/android/webkit/package-summary.html";
                 $title = $this->detect_browser_version(array('', 'Android Webkit'));
                 $code = "android-webkit";
-            } elseif (preg_match('/Windows.+Chrome.+Edge/i', $userAgentString)) {
-                // Project Spartan
-                $link = "http://windows.microsoft.com/en-us/windows/preview-microsoft-edge-pc";
-                $title = $this->detect_browser_version(array('', 'Edge'));
-                $code = "edge";
             } elseif (preg_match('/Safari/i', $userAgentString)
                 && !preg_match('/Nokia/i', $userAgentString)
             ) {
@@ -1801,8 +1797,6 @@ class UserAgent
         } elseif ($lower_title == "msie" && preg_match('/\ rv:([.0-9a-zA-Z]+)/i', $useragent)) {
             // We have IE11 or newer
             $start = " rv";
-        } elseif ($lower_title == "spartan") {
-            $start = "edge";
         } elseif ($lower_title == "nichrome/self") {
             $start = "self";
         }

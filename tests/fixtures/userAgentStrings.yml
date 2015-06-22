@@ -1871,3 +1871,42 @@
     name: unknown
     deviceVersion: unknown
   isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; Linux i686; tr-TR; rv:1.9.0) Gecko/2008061600 SUSE/3.0-1.2 Firefox/3.0
+  browser:
+    name: Firefox
+    version: "3.0"
+  os:
+    name: openSUSE
+    version: "3.0"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0) Gecko/2008061600 SUSE/3.0-1.2 Firefox/3.0
+  browser:
+    name: Firefox
+    version: "3.0"
+  os:
+    name: openSUSE
+    version: "3.0"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Nokia 920) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0
+  browser:
+    name: Spartan
+    version: "12.0"
+  os:
+    name: Windows Phone
+    version: "10.0"
+  device:
+    name: Nokia
+    deviceVersion: Lumia 920
+  isMobile: true
+
+
+

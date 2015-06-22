@@ -1010,14 +1010,6 @@ $testList = array(
         array('img/16/browser/firefox.png', 'img/16/os/dragonflybsd.png', 'Firefox 3.1b2', 'DragonFly BSD'),
     ),
     array(
-        array('Mozilla/5.0 (X11; U; Linux i686; tr-TR; rv:1.9.0) Gecko/2008061600 SUSE/3.0-1.2 Firefox/3.0'),
-        array('img/16/browser/firefox.png', 'img/16/os/suse.png', 'Firefox 3.0', 'openSUSE'),
-    ),
-    array(
-        array('Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0) Gecko/2008061600 SUSE/3.0-1.2 Firefox/3.0'),
-        array('img/16/browser/firefox.png', 'img/16/os/suse.png', 'Firefox 3.0', 'openSUSE x64'),
-    ),
-    array(
         array('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.10) Gecko/20060410 Firefox/1.0.8 Mandriva/1.0.6-16.5.20060mdk (2006.0)'),
         array('img/16/browser/firefox.png', 'img/16/os/mandriva.png', 'Firefox 1.0.8', 'Mandriva'),
     ),
