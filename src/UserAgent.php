@@ -41,7 +41,8 @@ class UserAgent
         'AOL',
         'Voyager',
         'Chromium',
-        'Thunderbird'
+        'Thunderbird',
+        'Firebird'
     ];
 
     protected static $osDetectorsList = [
@@ -284,7 +285,6 @@ class UserAgent
         'Epiphany',
         'Escape|Espial',
         'Fennec',
-        'Firebird',
         'Fireweb\ Navigator',
         'Fluid',
         'Galeon',
@@ -753,11 +753,6 @@ class UserAgent
             'link' => 'https://wiki.mozilla.org/Fennec',
             'title' => '{%Fennec%}',
             'code' => 'fennec',
-        ),
-        'firebird' => array(
-            'link' => 'http://seb.mozdev.org/firebird/',
-            'title' => '{%Firebird%}',
-            'code' => 'firebird',
         ),
         'fireweb navigator' => array(
             'link' => 'http://www.arsslensoft.tk/?q=node/7',
