@@ -1907,8 +1907,6 @@
     name: Nokia
     deviceVersion: Lumia 920
   isMobile: true
-
-
 -
   userAgent: Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13
   browser:
@@ -1921,3 +1919,15 @@
     name: unknown
     deviceVersion: unknown
   isMobile: false
+-
+  userAgent: OneBrowser/4.2.0/Adr(Linux; U; Android 4.1.2; cs-cz; C2105 Build/15.0.A.1.31) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1
+  browser:
+    name: OneBrowser
+    version: "4.2.0"
+  os:
+    name: Android
+    version: "4.1.2"
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: true

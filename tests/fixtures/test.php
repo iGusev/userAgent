@@ -1018,10 +1018,6 @@ $testList = array(
         array('img/16/browser/firefox.png', 'img/16/os/red-hat.png', 'Firefox 1.0', 'Red Hat Enterprise Linux 4'),
     ),
     array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13'),
-        array('img/16/browser/firebird.png', 'img/16/os/win-4.png', 'Firebird 3.6.13', 'Windows 7'),
-    ),
-    array(
         array('Mozilla/5.0 (Android; Linux armv7l; rv:9.0) Gecko/20111216 Firefox/9.0 Fennec/9.0'),
         array('img/16/browser/fennec.png', 'img/16/os/android.png', 'Fennec 9.0', 'Android'),
     ),
@@ -1320,10 +1316,6 @@ $testList = array(
     array(
         array('Mozilla/4.7 (compatible; OffByOne; Windows )'),
         array('img/16/browser/offbyone.png', 'img/16/os/win-2.png', 'Off By One', 'Windows'),
-    ),
-    array(
-        array('OneBrowser/4.2.0/Adr(Linux; U; Android 4.1.2; cs-cz; C2105 Build/15.0.A.1.31) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1'),
-        array('img/16/browser/onebrowser.png', 'img/16/os/android.png', 'OneBrowser 4.2.0', 'Android 4.1.2'),
     ),
     array(
         array('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 OPR/19.0.1326.39 (Edition Next)'),
