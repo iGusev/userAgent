@@ -42,7 +42,8 @@ class UserAgent
         'Voyager',
         'Chromium',
         'Thunderbird',
-        'Firebird'
+        'Firebird',
+        'OneBrowser'
     ];
 
     protected static $osDetectorsList = [
@@ -361,7 +362,6 @@ class UserAgent
         'Obigo',
         'OffByOne',
         'OmniWeb',
-        'OneBrowser',
         'Orca',
         'Oregano',
         'Origyn\ Web\ Browser',
@@ -1143,11 +1143,6 @@ class UserAgent
             'link' => 'http://www.omnigroup.com/applications/omniweb/',
             'title' => '{%OmniWeb%}',
             'code' => 'omniweb',
-        ),
-        'onebrowser' => array(
-            'link' => 'http://one-browser.com/',
-            'title' => '{%OneBrowser%}',
-            'code' => 'onebrowser',
         ),
         'orca' => array(
             'link' => 'http://www.orcabrowser.com/',
