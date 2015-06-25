@@ -1931,3 +1931,27 @@
     name: unknown
     deviceVersion: unknown
   isMobile: true
+-
+  userAgent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) SlimBoat/1.0.8 Version/5.1 Safari/533.3
+  browser:
+    name: SlimBoat
+    version: "1.0.8"
+  os:
+    name: Windows
+    version: 7
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false
+-
+  userAgent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/534.34 (KHTML like Gecko) SlimBoat/1.1.53 Chrome/25.0.1364.97 Version/5.1 Safari/534.34
+  browser:
+    name: SlimBoat
+    version: "1.1.53"
+  os:
+    name: Windows
+    version: 8
+  device:
+    name: unknown
+    deviceVersion: unknown
+  isMobile: false

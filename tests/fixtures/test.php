@@ -1330,10 +1330,6 @@ $testList = array(
         array('img/16/browser/otter.png', 'img/16/os/android.png', 'Otter Build', 'Android 4.4.3'),
     ),
     array(
-        array('Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) SlimBoat/1.0.8 Version/5.1 Safari/533.3'),
-        array('img/16/browser/slimboat.png', 'img/16/os/win-4.png', 'SlimBoat 1.0.8', 'Windows 7'),
-    ),
-    array(
         array('KDDI-KC31 UP.Browser/6.2.0.5 (GUI) MMP/2.0'),
         array('img/16/browser/openwave.png', 'img/16/browser/null.png', 'Openwave Mobile Browser 6.2.0.5', 'Unknown'),
     ),
@@ -1364,10 +1360,6 @@ $testList = array(
     array(
         array('Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.8.1.9) Gecko/20071110 Sylera/3.0.20 SeaMonkey/1.1.6'),
         array('img/16/browser/null.png', 'img/16/os/win-4.png', 'Sylera 3.0.20', 'Windows 7'),
-    ),
-    array(
-        array('Mozilla/5.0 (Windows NT 6.2) AppleWebKit/534.34 (KHTML like Gecko) SlimBoat/1.1.53 Chrome/25.0.1364.97 Version/5.1 Safari/534.34'),
-        array('img/16/browser/slimboat.png', 'img/16/os/win-5.png', 'SlimBoat 1.1.53', 'Windows 8'),
     ),
     array(
         array('Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.13.81_10003810) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'),
