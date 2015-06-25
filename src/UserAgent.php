@@ -43,7 +43,8 @@ class UserAgent
         'Chromium',
         'Thunderbird',
         'Firebird',
-        'OneBrowser'
+        'OneBrowser',
+        'SlimBoat'
     ];
 
     protected static $osDetectorsList = [
@@ -399,7 +400,6 @@ class UserAgent
         'Skyfire',
         'Sleipnir',
         'Silk',
-        'SlimBoat',
         'SlimBrowser',
         'Superbird',
         'SmartTV',
@@ -1328,11 +1328,6 @@ class UserAgent
             'link' => 'http://en.wikipedia.org/wiki/Amazon_Silk/',
             'title' => 'Amazon {%Silk%}',
             'code' => 'silk',
-        ),
-        'slimboat' => array(
-            'link' => 'http://slimboat.com/',
-            'title' => '{%SlimBoat%}',
-            'code' => 'slimboat',
         ),
         'slimbrowser' => array(
             'link' => 'http://www.flashpeak.com/sbrowser/',
