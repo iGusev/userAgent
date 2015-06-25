@@ -1579,11 +1579,6 @@ class UserAgent
             'title' => '{%ZipZap%}',
             'code' => 'zipzap',
         ),
-        'firefox' => array(
-            'link' => 'http://www.mozilla.org/',
-            'title' => '{%Firefox%}',
-            'code' => 'firefox',
-        ),
         'none' => array(
             'link' => '#',
             'title' => 'Unknown',
@@ -1713,10 +1708,6 @@ class UserAgent
                 $link = "http://www.nokia.com/browser";
                 $title = "Nokia Web Browser";
                 $code = "maemo";
-            } elseif (preg_match('/Firefox/i', $userAgentString)) {
-                $link = "http://www.mozilla.org/";
-                $title = $this->detect_browser_version(array('', 'Firefox'));
-                $code = "firefox";
             } elseif (preg_match('/Mozilla/i', $userAgentString)) {
                 $link = "http://www.mozilla.org/";
                 $title = "Mozilla Compatible";
